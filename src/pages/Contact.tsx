@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       title: 'Email',
-      details: ['madhu.khatri14@outlook.com', 'contact@mklegalpartners.com'],
+      details: ['madhu.khatri14@outlook.com'],
     },
     // {
     //   icon: MapPin,

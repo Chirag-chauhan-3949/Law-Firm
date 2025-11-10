@@ -20,8 +20,7 @@ const PracticeAreas: React.FC = () => {
         'Enforcement & Litigation',
         'Brand Protection Strategy',
       ],
-      image:
-        'https://images.pexels.com/photos/5669602/pexels-photo-5669602.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      color: '#3B82F6',
     },
     {
       icon: PaletteIcon,
@@ -36,8 +35,7 @@ const PracticeAreas: React.FC = () => {
         'Design Infringement',
         'International Design Filing',
       ],
-      image:
-        'https://images.pexels.com/photos/5668774/pexels-photo-5668774.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      color: '#8B5CF6',
     },
     {
       icon: Lightbulb,
@@ -52,8 +50,7 @@ const PracticeAreas: React.FC = () => {
         'Patent Portfolio Management',
         'Patent Licensing',
       ],
-      image:
-        'https://images.pexels.com/photos/5669619/pexels-photo-5669619.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      color: '#F59E0B',
     },
     {
       icon: Copyright,
@@ -68,8 +65,7 @@ const PracticeAreas: React.FC = () => {
         'Software Copyright',
         'Creative Works Protection',
       ],
-      image:
-        'https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      color: '#10B981',
     },
     {
       icon: Scale,
@@ -84,8 +80,7 @@ const PracticeAreas: React.FC = () => {
         'Domain Disputes',
         'Licensing Disputes',
       ],
-      image:
-        'https://images.pexels.com/photos/5669501/pexels-photo-5669501.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      color: '#EF4444',
     },
     {
       icon: FileText,
@@ -100,8 +95,7 @@ const PracticeAreas: React.FC = () => {
         'Technology Transfer',
         'Joint Venture Agreements',
       ],
-      image:
-        'https://images.pexels.com/photos/5669618/pexels-photo-5669618.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      color: '#6366F1',
     },
     {
       icon: Briefcase,
@@ -116,8 +110,7 @@ const PracticeAreas: React.FC = () => {
         'IP Asset Management',
         'Competitive Intelligence',
       ],
-      image:
-        'https://images.pexels.com/photos/5669598/pexels-photo-5669598.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      color: '#84CC16',
     },
     {
       icon: Users,
@@ -132,8 +125,7 @@ const PracticeAreas: React.FC = () => {
         'Compliance Advisory',
         'Risk Assessment',
       ],
-      image:
-        'https://images.pexels.com/photos/5669594/pexels-photo-5669594.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      color: '#06B6D4',
     },
     {
       icon: Gavel,
@@ -148,8 +140,7 @@ const PracticeAreas: React.FC = () => {
         'Appeals',
         'Injunctive Relief',
       ],
-      image:
-        'https://images.pexels.com/photos/5669602/pexels-photo-5669602.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      color: '#DC2626',
     },
     {
       icon: Monitor,
@@ -164,8 +155,7 @@ const PracticeAreas: React.FC = () => {
         'Celebrity Rights',
         'Digital Content Protection',
       ],
-      image:
-        'https://images.pexels.com/photos/5668774/pexels-photo-5668774.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      color: '#7C3AED',
     },
     {
       icon: PaletteIcon,
@@ -180,8 +170,7 @@ const PracticeAreas: React.FC = () => {
         'Fashion Licensing',
         'Trade Dress Protection',
       ],
-      image:
-        'https://images.pexels.com/photos/5669619/pexels-photo-5669619.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      color: '#EC4899',
     },
     {
       icon: Globe,
@@ -196,8 +185,7 @@ const PracticeAreas: React.FC = () => {
         'Digital Rights',
         'IT Law Compliance',
       ],
-      image:
-        'https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      color: '#0891B2',
     },
     {
       icon: Heart,
@@ -212,8 +200,7 @@ const PracticeAreas: React.FC = () => {
         'Startup Assistance',
         'Social Impact Projects',
       ],
-      image:
-        'https://images.pexels.com/photos/5669501/pexels-photo-5669501.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      color: '#F97316',
     },
   ];
 
@@ -244,48 +231,76 @@ const PracticeAreas: React.FC = () => {
       {/* Practice Areas Grid */}
       <section className="py-20" style={{ backgroundColor: 'var(--bg)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {practiceAreas.map((area, index) => {
               const Icon = area.icon;
               return (
                 <div
                   key={index}
-                  className="rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
-                  style={{ backgroundColor: '#fff' }}
+                  className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
+                  style={{ 
+                    backgroundColor: '#fff',
+                    border: '1px solid rgba(0,0,0,0.05)'
+                  }}
                 >
-                  <div>
-                    <img
-                      src={area.image}
-                      alt={area.title}
-                      className="w-full h-64 object-cover"
-                    />
-                  </div>
+                  {/* Gradient Header */}
+                  <div 
+                    className="h-2 w-full"
+                    style={{ backgroundColor: area.color }}
+                  ></div>
+                  
                   <div className="p-8">
-                    <div className="flex items-center mb-4">
-                      <Icon className="h-8 w-8 mr-3" style={{ color: 'var(--primary)' }} />
-                      <div>
-                        <h3 className="text-2xl font-bold" style={{ color: 'var(--text)' }}>{area.title}</h3>
-                        {area.subtitle && (
-                          <div className="text-sm" style={{ color: 'var(--muted)' }}>{area.subtitle}</div>
-                        )}
-                      </div>
+                    {/* Icon Circle */}
+                    <div 
+                      className="w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto"
+                      style={{ 
+                        backgroundColor: `${area.color}15`,
+                        color: area.color
+                      }}
+                    >
+                      <Icon className="h-8 w-8" />
                     </div>
-                    <p className="mb-6" style={{ color: 'var(--muted)' }}>{area.description}</p>
-                    <div>
-                      <h4 className="font-semibold mb-3" style={{ color: 'var(--text)' }}>Our Services Include:</h4>
-                      <ul className="space-y-2">
+
+                    {/* Content */}
+                    <div className="text-center mb-6">
+                      <h3 className="text-2xl font-bold mb-2" style={{ color: 'var(--text)' }}>
+                        {area.title}
+                      </h3>
+                      <div className="text-sm mb-4" style={{ color: 'var(--muted)' }}>
+                        {area.subtitle}
+                      </div>
+                      <p className="text-sm leading-relaxed" style={{ color: 'var(--muted)' }}>
+                        {area.description}
+                      </p>
+                    </div>
+
+                    {/* Features */}
+                    <div className="space-y-2">
+                      <h4 className="font-semibold text-sm mb-3" style={{ color: 'var(--text)' }}>
+                        Our Services Include:
+                      </h4>
+                      <div className="space-y-2">
                         {area.features.map((feature, featureIndex) => (
-                          <li
+                          <div
                             key={featureIndex}
-                            className="flex items-center"
+                            className="flex items-center text-sm"
                             style={{ color: 'var(--muted)' }}
                           >
-                            <div className="w-2 h-2 rounded-full mr-3" style={{ backgroundColor: 'var(--primary)' }}></div>
-                            {feature}
-                          </li>
+                            <div 
+                              className="w-1.5 h-1.5 rounded-full mr-2 flex-shrink-0"
+                              style={{ backgroundColor: area.color }}
+                            ></div>
+                            <span>{feature}</span>
+                          </div>
                         ))}
-                      </ul>
+                      </div>
                     </div>
+
+                    {/* Hover Effect Overlay */}
+                    <div 
+                      className="absolute inset-0 opacity-0 group-hover:opacity-5 transition-opacity duration-300 pointer-events-none"
+                      style={{ backgroundColor: area.color }}
+                    ></div>
                   </div>
                 </div>
               );
