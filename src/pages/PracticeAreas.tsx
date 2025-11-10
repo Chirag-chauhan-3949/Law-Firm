@@ -10,7 +10,7 @@ const PracticeAreas: React.FC = () => {
     {
       icon: Shield,
       title: 'Trademarks',
-      subtitle: 'Area Of Practice | SAGAR CHANDRA & ASSOCIATES',
+      subtitle: 'Area Of Practice | MK Legal Partners',
       description:
         'Comprehensive trademark services including search & clearance, registration, opposition, and enforcement to secure and grow your brand.',
       features: [
@@ -26,7 +26,7 @@ const PracticeAreas: React.FC = () => {
     {
       icon: PaletteIcon,
       title: 'Designs',
-      subtitle: 'Designs – Area Of Practice | SAGAR CHANDRA & ASSOCIATES',
+      subtitle: 'Area Of Practice | MK Legal Partners',
       description:
         'Industrial and product design protection services covering registration, prosecution and cross-border enforcement of design rights.',
       features: [
@@ -42,7 +42,7 @@ const PracticeAreas: React.FC = () => {
     {
       icon: Lightbulb,
       title: 'Patents',
-      subtitle: 'Patents',
+      subtitle: 'Area Of Practice | MK Legal Partners',
       description:
         'Patent drafting, filing, prosecution and portfolio services for inventions — from prosecution to licensing and commercialization.',
       features: [
@@ -58,7 +58,7 @@ const PracticeAreas: React.FC = () => {
     {
       icon: Copyright,
       title: 'Copyright',
-      subtitle: 'Practice Areas',
+      subtitle: 'Area Of Practice | MK Legal Partners',
       description:
         'Copyright protection for creative works, software and digital content including registration, enforcement and takedowns.',
       features: [
@@ -74,7 +74,7 @@ const PracticeAreas: React.FC = () => {
     {
       icon: Scale,
       title: 'Alternate Dispute Resolution',
-      subtitle: '',
+      subtitle: 'Area Of Practice | MK Legal Partners',
       description:
         'Efficient conflict resolution through mediation, arbitration and negotiated settlements for IP and commercial disputes.',
       features: [
@@ -90,7 +90,7 @@ const PracticeAreas: React.FC = () => {
     {
       icon: FileText,
       title: 'Contracts and Agreements Drafting',
-      subtitle: '',
+      subtitle: 'Area Of Practice | MK Legal Partners',
       description:
         'Drafting and negotiation of IP-related contracts, licensing agreements and commercial arrangements to protect client interests.',
       features: [
@@ -106,7 +106,7 @@ const PracticeAreas: React.FC = () => {
     {
       icon: Briefcase,
       title: 'IPR Evaluation and Portfolio Management',
-      subtitle: 'IPR EVALUATION AND PORTFOLIO MANAGEMENT',
+      subtitle: 'Area Of Practice | MK Legal Partners',
       description:
         'Strategic IP audits, valuation and portfolio management to maximize commercial potential and reduce risk.',
       features: [
@@ -122,9 +122,9 @@ const PracticeAreas: React.FC = () => {
     {
       icon: Users,
       title: 'Legal Consultancy and Advisory',
-      subtitle: '',
+      subtitle: 'Area Of Practice | MK Legal Partners',
       description:
-        'High-level legal advice on IP strategy, policies, licensing and compliance for businesses and institutions.',
+        'We offer strategic legal guidance to help businesses make informed decisions, manage risks, and ensure compliance in commercial and intellectual property matters.',
       features: [
         'IP Strategy Consulting',
         'Legal Opinions',
@@ -138,7 +138,7 @@ const PracticeAreas: React.FC = () => {
     {
       icon: Gavel,
       title: 'Litigation',
-      subtitle: '',
+      subtitle: 'Area Of Practice | MK Legal Partners',
       description:
         'Representation in IP litigation, enforcement actions and appellate proceedings before courts and tribunals.',
       features: [
@@ -154,7 +154,7 @@ const PracticeAreas: React.FC = () => {
     {
       icon: Monitor,
       title: 'Media and Entertainment',
-      subtitle: 'Area Of Practice | SAGAR CHANDRA & ASSOCIATES',
+      subtitle: 'Area Of Practice | MK Legal Partners',
       description:
         'Specialized legal services for media and entertainment including content protection, licensing and rights management.',
       features: [
@@ -170,7 +170,7 @@ const PracticeAreas: React.FC = () => {
     {
       icon: PaletteIcon,
       title: 'Fashion Laws',
-      subtitle: 'Area Of Practice | SAGAR CHANDRA & ASSOCIATES',
+      subtitle: 'Area Of Practice | MK Legal Partners',
       description:
         'Advising fashion designers and brands on design protection, anti-counterfeiting and licensing strategies.',
       features: [
@@ -186,7 +186,7 @@ const PracticeAreas: React.FC = () => {
     {
       icon: Globe,
       title: 'Cyber Laws / Technology Law',
-      subtitle: 'Practice Areas',
+      subtitle: 'Area Of Practice | MK Legal Partners',
       description:
         'Counsel on cyber law, data protection, technology contracts and digital rights compliance for tech-enabled businesses.',
       features: [
@@ -202,7 +202,7 @@ const PracticeAreas: React.FC = () => {
     {
       icon: Heart,
       title: 'Pro Bono',
-      subtitle: '',
+      subtitle: 'Area Of Practice | MK Legal Partners',
       description:
         'Committed to community service through pro bono representation for deserving causes and individuals.',
       features: [
@@ -306,11 +306,11 @@ const PracticeAreas: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:(555)123-4567"
+              href="tel:6375063727"
               className="inline-flex items-center px-8 py-4 font-semibold rounded-lg hover:opacity-90 transition-colors duration-200"
               style={{ backgroundColor: 'var(--accent)', color: 'var(--bg)' }}
             >
-              Call (555) 123-4567
+              Call 6375063727
             </a>
             <a
               href="/contact"

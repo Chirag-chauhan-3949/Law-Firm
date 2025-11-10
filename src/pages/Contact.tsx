@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MapPin, Phone, Mail, Clock, Send } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Send, CheckCircle, AlertCircle, X } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -9,6 +9,9 @@ const Contact: React.FC = () => {
     subject: '',
     message: '',
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showSuccess, setShowSuccess] = useState(false);
+  const [showError, setShowError] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
@@ -19,22 +22,32 @@ const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
-    alert('Thank you for your message. We will contact you soon!');
+    setIsSubmitting(true);
+    setShowSuccess(false);
+    setShowError(false);
+
+    // Simulate form submission (actual submission will be handled by form action)
+    setTimeout(() => {
+      setIsSubmitting(false);
+      setShowSuccess(true);
+      setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
+      
+      // Hide success message after 5 seconds
+      setTimeout(() => setShowSuccess(false), 5000);
+    }, 1000);
   };
 
-  // 🟢 Updated contact info with real office locations
+  // 🟢 Updated contact info with new phone numbers and email
   const contactInfo = [
     {
       icon: Phone,
       title: 'Phone',
-      details: ['Main: (555) 123-4567', 'Emergency: (555) 123-4568'],
+      details: ['6375063727'],
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@khatrilaw.com', 'consultations@khatrilaw.com'],
+      details: ['madhu.khatri14@outlook.com', 'contact@mklegalpartners.com'],
     },
     // {
     //   icon: MapPin,
@@ -71,7 +84,7 @@ const Contact: React.FC = () => {
             Contact <span style={{ color: 'var(--primary)' }}>MK Legal Partners</span>
           </h1>
           <p className="text-xl max-w-3xl mx-auto" style={{ color: 'rgba(247,249,250,0.85)' }}>
-            Get in touch with our experienced legal team. We’re here to help you protect, manage, and enforce your rights with confidence.
+            Get in touch with our experienced legal team. We're here to help you protect, manage, and enforce your rights with confidence.
           </p>
         </div>
       </section>
@@ -106,19 +119,75 @@ const Contact: React.FC = () => {
               Fill out the form below and we'll contact you within 24 hours to discuss your legal needs.
             </p>
 
-            <form onSubmit={handleSubmit} className="space-y-6">
+            {/* Success Message */}
+            {showSuccess && (
+              <div className="mb-6 p-4 rounded-lg flex items-center justify-between" style={{ backgroundColor: '#10b981', color: 'white' }}>
+                <div className="flex items-center">
+                  <CheckCircle className="h-5 w-5 mr-3" />
+                  <div>
+                    <p className="font-semibold">Message Sent Successfully!</p>
+                    <p className="text-sm">Thank you for contacting us. We'll respond within 24 hours.</p>
+                  </div>
+                </div>
+                <button onClick={() => setShowSuccess(false)} className="ml-4">
+                  <X className="h-5 w-5" />
+                </button>
+              </div>
+            )}
+
+            {/* Error Message */}
+            {showError && (
+              <div className="mb-6 p-4 rounded-lg flex items-center justify-between" style={{ backgroundColor: '#ef4444', color: 'white' }}>
+                <div className="flex items-center">
+                  <AlertCircle className="h-5 w-5 mr-3" />
+                  <div>
+                    <p className="font-semibold">Unable to Send Message</p>
+                    <p className="text-sm">Please try again or call us directly at 6375063727.</p>
+                  </div>
+                </div>
+                <button onClick={() => setShowError(false)} className="ml-4">
+                  <X className="h-5 w-5" />
+                </button>
+              </div>
+            )}
+
+            {/* Standard HTML Form with Formsubmit.co */}
+            <form 
+              action="https://formsubmit.co/madhu.khatri14@outlook.com" 
+              method="POST"
+              onSubmit={handleSubmit}
+              className="space-y-6"
+            >
+              {/* Hidden inputs for Formsubmit.co configuration */}
+              <input type="hidden" name="_subject" value="New Contact Form Submission from MK Legal Partners" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_next" value={window.location.href + '?success=true'} />
+              <input type="hidden" name="_captcha" value="false" />
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium mb-2" style={{ color: 'var(--text)' }}>Full Name *</label>
-                  <input type="text" id="name" name="name" required value={formData.name} onChange={handleChange}
-                    className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:border-transparent"
+                  <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    required 
+                    value={formData.name} 
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:border-transparent transition-all duration-200"
                     style={{ borderColor: 'var(--muted)', color: 'var(--text)' }}
                   />
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium mb-2" style={{ color: 'var(--text)' }}>Email Address *</label>
-                  <input type="email" id="email" name="email" required value={formData.email} onChange={handleChange}
-                    className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:border-transparent"
+                  <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    required 
+                    value={formData.email} 
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:border-transparent transition-all duration-200"
                     style={{ borderColor: 'var(--muted)', color: 'var(--text)' }}
                   />
                 </div>
@@ -127,15 +196,25 @@ const Contact: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium mb-2" style={{ color: 'var(--text)' }}>Phone Number</label>
-                  <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange}
-                    className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:border-transparent"
+                  <input 
+                    type="tel" 
+                    id="phone" 
+                    name="phone" 
+                    value={formData.phone} 
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:border-transparent transition-all duration-200"
                     style={{ borderColor: 'var(--muted)', color: 'var(--text)' }}
                   />
                 </div>
                 <div>
                   <label htmlFor="subject" className="block text-sm font-medium mb-2" style={{ color: 'var(--text)' }}>Practice Area *</label>
-                  <select id="subject" name="subject" required value={formData.subject} onChange={handleChange}
-                    className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:border-transparent"
+                  <select 
+                    id="subject" 
+                    name="subject" 
+                    required 
+                    value={formData.subject} 
+                    onChange={handleChange}
+                    className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:border-transparent transition-all duration-200"
                     style={{ borderColor: 'var(--muted)', color: 'var(--text)' }}
                   >
                     <option value="">Select a practice area</option>
@@ -146,18 +225,35 @@ const Contact: React.FC = () => {
 
               <div>
                 <label htmlFor="message" className="block text-sm font-medium mb-2" style={{ color: 'var(--text)' }}>Message *</label>
-                <textarea id="message" name="message" required rows={6} value={formData.message} onChange={handleChange}
-                  className="w-full px-4 py-3 border rounded-lg resize-none focus:ring-2 focus:border-transparent"
+                <textarea 
+                  id="message" 
+                  name="message" 
+                  required 
+                  rows={6} 
+                  value={formData.message} 
+                  onChange={handleChange}
+                  className="w-full px-4 py-3 border rounded-lg resize-none focus:ring-2 focus:border-transparent transition-all duration-200"
                   style={{ borderColor: 'var(--muted)', color: 'var(--text)' }}
                 />
               </div>
 
-              <button type="submit"
-                className="w-full flex items-center justify-center px-8 py-4 font-semibold rounded-lg transition-colors duration-200 group"
+              <button 
+                type="submit"
+                disabled={isSubmitting}
+                className="w-full flex items-center justify-center px-8 py-4 font-semibold rounded-lg transition-all duration-200 group disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-[1.02] active:scale-[0.98]"
                 style={{ backgroundColor: 'var(--primary)', color: 'var(--bg)' }}
               >
-                <Send className="h-5 w-5 mr-2 group-hover:translate-x-1 transition-transform duration-200" />
-                Send Message
+                {isSubmitting ? (
+                  <>
+                    <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>
+                    Sending...
+                  </>
+                ) : (
+                  <>
+                    <Send className="h-5 w-5 mr-2 group-hover:translate-x-1 transition-transform duration-200" />
+                    Send Message
+                  </>
+                )}
               </button>
             </form>
           </div>
@@ -169,7 +265,7 @@ const Contact: React.FC = () => {
             <div className="p-8 rounded-lg mb-6" style={{ backgroundColor: 'var(--bg)' }}>
               <h3 className="text-lg font-semibold mb-4" style={{ color: 'var(--text)' }}>Our Locations</h3>
               <ul className="space-y-3 text-sm" style={{ color: 'var(--muted)' }}>
-                <li><strong>Jodhpur:</strong> 3 N 2 Kudi Bhagtasani Housing Board, Jodhpur, Raj. (342005), Chamber No. __ Rajasthan High Court</li>
+                <li><strong>Jodhpur:</strong> 3 N 2 Kudi Bhagtasani Housing Board, Jodhpur, Raj. (342005)</li>
                 <li><strong>Jaipur:</strong> 385, Shanti Nagar, Durgapura Railway Station, Jaipur - 302018</li>
                 <li><strong>Mumbai:</strong> 53A Mittal Tower, 210 Nariman Point, Mumbai - 400021</li>
                 
@@ -180,19 +276,13 @@ const Contact: React.FC = () => {
             <div className="p-8 rounded-lg" style={{ backgroundColor: 'var(--accent)', color: 'var(--bg)' }}>
               <h3 className="text-xl font-bold mb-4">Why Choose Our Firm?</h3>
               <ul className="space-y-3">
-                {['Free initial consultation', 'No fee unless we win', 'Extensive combined experience', 'Available 24/7 for emergencies', 'Multilingual staff available'].map((point, i) => (
+                {['Free initial consultation', 'Client centric approach', 'Strategic legal advice', 'Transparent communications'].map((point, i) => (
                   <li key={i} className="flex items-center">
                     <div className="w-2 h-2 rounded-full mr-3" style={{ backgroundColor: 'var(--primary)' }}></div>
                     <span>{point}</span>
                   </li>
                 ))}
               </ul>
-              <div className="mt-6 pt-6 border-t" style={{ borderColor: 'rgba(255,255,255,0.1)' }}>
-                <p className="text-sm" style={{ color: 'rgba(247,249,250,0.85)' }}>
-                  <strong>Emergency Contact:</strong><br />
-                  For urgent matters outside office hours, call our emergency line at (555) 123-4568.
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -202,20 +292,20 @@ const Contact: React.FC = () => {
       <section className="py-16" style={{ backgroundColor: 'var(--bg)' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: 'var(--text)' }}>
-            Don't Wait – Get Legal Help Today
+            Get Legal Help Today
           </h2>
           <p className="text-xl mb-8" style={{ color: 'var(--muted)' }}>
             The sooner you contact us, the sooner we can start working on your case. Every day matters in legal proceedings.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:(555)123-4567"
-              className="inline-flex items-center px-8 py-4 font-semibold rounded-lg transition-colors duration-200"
+            <a href="tel:6375063727"
+              className="inline-flex items-center px-8 py-4 font-semibold rounded-lg transition-all duration-200 transform hover:scale-[1.05] active:scale-[0.95]"
               style={{ backgroundColor: 'var(--primary)', color: 'var(--bg)' }}
             >
-              <Phone className="h-5 w-5 mr-2" /> Call Now: (555) 123-4567
+              <Phone className="h-5 w-5 mr-2" /> Call Now: 6375063727
             </a>
-            <a href="mailto:info@khatrilaw.com"
-              className="inline-flex items-center px-8 py-4 font-semibold rounded-lg transition-colors duration-200"
+            <a href="mailto:madhu.khatri14@outlook.com"
+              className="inline-flex items-center px-8 py-4 font-semibold rounded-lg transition-all duration-200 transform hover:scale-[1.05] active:scale-[0.95]"
               style={{ backgroundColor: 'var(--accent)', color: 'var(--bg)' }}
             >
               <Mail className="h-5 w-5 mr-2" /> Email Us

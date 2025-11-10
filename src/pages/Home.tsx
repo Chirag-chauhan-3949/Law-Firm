@@ -25,7 +25,7 @@ const Home: React.FC = () => {
     { id: 10, name: "Zeta", img: pic10 },
   ];
   const stats = [
-    { number: "10+", label: "Years of Experience" },
+    { number: "15+", label: "Years of Experience" },
     { number: "5", label: "Expert Attorneys" },
   ];
 
@@ -183,12 +183,12 @@ const Home: React.FC = () => {
                 <span style={{ color: "var(--primary)" }}>MK Legal Partners?</span>
               </h2>
               <p className="text-xl mb-6" style={{ color: "rgba(247,249,250,0.95)" }}>
-               At MK Legal Partners, our team of dedicated advocates brings together expertise, integrity, and a commitment to achieving excellence in every matter we handle. We combine legal acumen with practical insight to deliver effective solutions tailored to our clients’ needs.
+               At MK Legal Partners, our team of dedicated advocates brings together expertise, integrity, and a commitment to achieving excellence in every matter we handle. We combine legal acumen with practical insight to deliver effective solutions tailored to our clients' needs.
               </p>
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center">
                   <div className="w-2 h-2 rounded-full mr-4" style={{ backgroundColor: "var(--primary)" }}></div>
-                  <span>Over 10+ years of trusted legal experience</span>
+                  <span>Over 15+ years of trusted legal experience</span>
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 rounded-full mr-4" style={{ backgroundColor: "var(--primary)" }}></div>
@@ -274,7 +274,7 @@ const Home: React.FC = () => {
           </h2>
           <p className="text-xl mb-8" style={{ color: "rgba(11,18,32,0.85)" }}>
             Contact us today for a free consultation and let us help you achieve
-            the justice you deserve.
+            justice you deserve.
           </p>
           <Link
             to="/contact"

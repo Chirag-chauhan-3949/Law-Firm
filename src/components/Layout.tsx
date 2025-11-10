@@ -123,7 +123,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 </div>
               </div>
               <p className="text-[var(--muted)] mb-4">
-                Providing exceptional intellectual property legal services with integrity,
+                Providing exceptional legal services with integrity,
                 dedication, and a results-driven approach with an unwavering commitment
                 to client success.
               </p>
@@ -157,11 +157,11 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
               <div className="space-y-3 text-[var(--muted)]">
                 <div className="flex items-center space-x-2">
                   <Phone className="h-4 w-4" style={{ color: 'var(--primary)' }} />
-                  <span>(555) 123-4567</span>
+                  <span>6375063727</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="h-4 w-4" style={{ color: 'var(--primary)' }} />
-                  <span>info@khatrilaw.com</span>
+                  <span>madhu.khatri14@outlook.com</span>
                 </div>
 
                 <div className="flex items-start space-x-2 mt-4">
@@ -170,8 +170,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                     <div className="mb-2">
                       <strong style={{ color: 'var(--bg)' }}>Jodhpur:</strong>{' '}
                       <span style={{ color: 'var(--muted)' }}>
-                        3 N 2 Kudi Bhagtasani Housing Board, Jodhpur, Raj. (342005),
-                        Chamber No. __ Rajasthan High Court.
+                        3 N 2 Kudi Bhagtasani Housing Board, Jodhpur, Raj. (342005)
                       </span>
                     </div>
                     <div className="mb-2">
