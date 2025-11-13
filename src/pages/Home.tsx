@@ -91,12 +91,12 @@ const Home: React.FC = () => {
           <div className="absolute inset-0" style={{ backgroundColor: "var(--accent)", opacity: 0.72 }}></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
             <div className="max-w-3xl">
-              <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight" style={{ color: "var(--bg)" }}>
+              <h2 className="text-5xl md:text-7xl font-bold mb-6 leading-tight" style={{ color: "var(--bg)" }}>
                 Excellence in
                 <span className="block" style={{ color: "var(--primary)" }}>
                   Legal Services
                 </span>
-              </h1>
+              </h2>
               <p className="text-xl md:text-2xl mb-8" style={{ color: "rgba(247,249,250,0.88)" }}>
                 MK Legal Partners provides exceptional legal services across a wide range of sectors, ensuring strategic, result-oriented, and client-focused solutions.
               </p>
