@@ -6,7 +6,7 @@ __turbopack_load_page_chunks__("/practice-areas", [
   "static/chunks/node_modules_next_dist_6024eba3._.js",
   "static/chunks/node_modules_next_1e915a6b._.js",
   "static/chunks/node_modules_react-dom_4411d9bd._.js",
-  "static/chunks/node_modules_2d9b8467._.js",
+  "static/chunks/node_modules_8c80cdf2._.js",
   "static/chunks/pages_practice-areas_2da965e7._.js",
-  "static/chunks/turbopack-pages_practice-areas_322303f4._.js"
+  "static/chunks/turbopack-pages_practice-areas_a0ce2512._.js"
 ])

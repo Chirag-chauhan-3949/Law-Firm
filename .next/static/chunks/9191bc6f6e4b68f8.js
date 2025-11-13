@@ -1,0 +1,7 @@
+__turbopack_load_page_chunks__("/practice-areas", [
+  "static/chunks/a703100b9fda4eae.js",
+  "static/chunks/bf67903bbbe2d2e0.js",
+  "static/chunks/1bfb4d5d1194c52d.js",
+  "static/chunks/c0f7c446716830b6.js",
+  "static/chunks/turbopack-d89e1f6d78863f25.js"
+])
