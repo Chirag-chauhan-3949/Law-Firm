@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { Menu, X, Phone, Mail, MapPin, Scale } from 'lucide-react';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const location = useLocation();
+  const router = useRouter();
 
   const navigation = [
     { name: 'Home', href: '/' },
@@ -33,7 +34,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <Link
-              to="/"
+              href="/"
               className="flex items-center space-x-3"
               style={{ color: 'var(--bg)' }}
             >
@@ -53,10 +54,10 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
               {navigation.map((item) => (
                 <Link
                   key={item.name}
-                  to={item.href}
+                  href={item.href}
                   className="px-3 py-2 text-sm font-medium transition-colors duration-200 hover:text-[var(--primary)]"
                   style={
-                    location.pathname === item.href
+                    router.pathname === item.href
                       ? {
                           color: 'var(--primary)',
                           borderBottom: '2px solid var(--primary)',
@@ -88,10 +89,10 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
               {navigation.map((item) => (
                 <Link
                   key={item.name}
-                  to={item.href}
+                  href={item.href}
                   className="block px-3 py-2 text-base font-medium transition-colors duration-200 hover:text-[var(--primary)]"
                   style={
-                    location.pathname === item.href
+                    router.pathname === item.href
                       ? { color: 'var(--primary)' }
                       : { color: 'var(--bg)' }
                   }
@@ -138,7 +139,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 {navigation.map((item) => (
                   <li key={item.name}>
                     <Link
-                      to={item.href}
+                      href={item.href}
                       className="transition-colors duration-200"
                       style={{ color: 'var(--muted)' }}
                     >

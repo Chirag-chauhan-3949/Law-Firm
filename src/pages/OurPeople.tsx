@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Award, BookOpen, Users } from 'lucide-react';
 
-import chitrasundar from "../images/ourPeople/Chitra_Sundar.jpeg";
-import adityabhagwani from "../images/ourPeople/Aditya_Bhagwani.jpg";
-import kushagraagarwal from "../images/ourPeople/Kushagra_Agarwal.jpeg";
-import Grahitaagarwal from "../images/ourPeople/grahita_agarwal.jpeg";
-import kaminijoshi from "../images/ourPeople/kamini_joshi.jpeg";
+const chitrasundar = "/images/ourPeople/Chitra_Sundar.jpeg";
+const adityabhagwani = "/images/ourPeople/Aditya_Bhagwani.jpg";
+const kushagraagarwal = "/images/ourPeople/Kushagra_Agarwal.jpeg";
+const Grahitaagarwal = "/images/ourPeople/grahita_agarwal.jpeg";
+const kaminijoshi = "/images/ourPeople/kamini_joshi.jpeg";
 
 const OurPeople: React.FC = () => {
   const attorneys = [
@@ -113,7 +113,6 @@ const OurPeople: React.FC = () => {
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-1" style={{ color: 'var(--text)' }}>{attorney.name}</h3>
                   <p className="font-semibold mb-2" style={{ color: 'var(--primary)' }}>{attorney.title}</p>
-                  <p className="mb-4" style={{ color: 'var(--muted)' }}>{attorney.experience || ''}</p>
 
                   <div className="mb-4">
                     <h4 className="font-semibold mb-1" style={{ color: 'var(--text)' }}>Education:</h4>

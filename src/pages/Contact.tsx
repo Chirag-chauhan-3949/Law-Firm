@@ -161,7 +161,7 @@ const Contact: React.FC = () => {
               {/* Hidden inputs for Formsubmit.co configuration */}
               <input type="hidden" name="_subject" value="New Contact Form Submission from MK Legal Partners" />
               <input type="hidden" name="_template" value="table" />
-              <input type="hidden" name="_next" value={window.location.href + '?success=true'} />
+              <input type="hidden" name="_next" value="/contact?success=true" />
               <input type="hidden" name="_captcha" value="false" />
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

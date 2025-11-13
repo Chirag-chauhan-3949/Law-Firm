@@ -1,16 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { ArrowRight, Shield, Users, Award, Clock, Scale, FileText, Globe } from "lucide-react";
 
-import pic1 from "../images/Picture1.png";
-import pic2 from "../images/Picture2.png";
-import pic3 from "../images/Picture3.png";
-import pic4 from "../images/Picture4.png";
-import pic6 from "../images/Picture6.png";
-// import pic7 from "../images/Picture7.png";
-import pic8 from "../images/Picture8.png";
-// import pic9 from "../images/Picture9.png";
-import pic10 from "../images/Picture10.png";
+const pic1 = "/images/Picture1.png";
+const pic2 = "/images/Picture2.png";
+const pic3 = "/images/Picture3.png";
+const pic4 = "/images/Picture4.png";
+const pic6 = "/images/Picture6.png";
+// const pic7 = "/images/Picture7.png";
+const pic8 = "/images/Picture8.png";
+// const pic9 = "/images/Picture9.png";
+const pic10 = "/images/Picture10.png";
 
 const Home: React.FC = () => {
   const clientList = [
@@ -102,7 +102,7 @@ const Home: React.FC = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
-                  to="/contact"
+                  href="/contact"
                   className="inline-flex items-center px-8 py-4 font-semibold rounded-lg hover:opacity-90 transition-colors duration-200 group"
                   style={{ backgroundColor: "var(--primary)", color: "var(--bg)" }}
                 >
@@ -110,7 +110,7 @@ const Home: React.FC = () => {
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-200" />
                 </Link>
                 <Link
-                  to="/practice-areas"
+                  href="/practice-areas"
                   className="inline-flex items-center px-8 py-4 border-2 font-semibold rounded-lg hover:bg-[rgba(255,255,255,0.95)] hover:text-black transition-colors duration-200"
                   style={{ borderColor: "rgba(255,255,255,0.9)", color: "var(--bg)", backgroundColor: "transparent" }}
                 >
@@ -204,7 +204,7 @@ const Home: React.FC = () => {
                 </li>
               </ul>
               <Link
-                to="/about"
+                href="/about"
                 className="inline-flex items-center px-6 py-3 font-semibold rounded-lg hover:opacity-90 transition-colors duration-200 group"
                 style={{ backgroundColor: "var(--primary)", color: "var(--bg)" }}
               >
@@ -277,7 +277,7 @@ const Home: React.FC = () => {
             justice you deserve.
           </p>
           <Link
-            to="/contact"
+            href="/contact"
             className="inline-flex items-center px-8 py-4 font-semibold rounded-lg hover:opacity-90 transition-colors duration-200 group"
             style={{ backgroundColor: "var(--accent)", color: "var(--bg)" }}
           >
