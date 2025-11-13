@@ -8,7 +8,7 @@ const PracticeAreasPage: React.FC = () => {
     <>
       <Head>
         <title>Practice Areas - Intellectual Property Rights & Legal Services | MK Legal Partners</title>
-        <meta name="description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation. Call +916375063727." />
+        <meta name="description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation." />
         <meta name="keywords" content="trademark registration, patent filing, copyright protection, intellectual property rights, corporate law, litigation services, ADR, cyber law, legal consultancy, IPR services" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://mklegalpartners.com/practice-areas" />

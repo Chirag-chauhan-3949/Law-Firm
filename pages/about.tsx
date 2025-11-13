@@ -8,7 +8,7 @@ const AboutPage: React.FC = () => {
     <>
       <Head>
         <title>About MK Legal Partners - Our Story & Legal Expertise | Top Law Firm</title>
-        <meta name="description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation. Call +916375063727." />
+        <meta name="description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation." />
         <meta name="keywords" content="about MK Legal Partners, law firm story, legal expertise, IP lawyers, corporate attorneys, legal team, law firm history" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://mklegalpartners.com/about" />

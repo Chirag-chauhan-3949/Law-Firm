@@ -8,7 +8,7 @@ const ContactPage: React.FC = () => {
     <>
       <Head>
         <title>Contact MK Legal Partners - Top Law Firm in India | Free Consultation</title>
-        <meta name="description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation. Call +916375063727." />
+        <meta name="description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation." />
         <meta name="keywords" content="contact law firm, legal consultation, lawyer contact, MK Legal Partners phone, email lawyers, legal services India, free legal advice" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://mklegalpartners.com/contact" />

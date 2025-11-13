@@ -8,7 +8,7 @@ const OurPeoplePage: React.FC = () => {
     <>
       <Head>
         <title>Our Legal Team - Expert Lawyers & Attorneys | MK Legal Partners</title>
-        <meta name="description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation. Call +916375063727." />
+        <meta name="description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation." />
         <meta name="keywords" content="legal team, expert lawyers, attorneys, IP lawyers, corporate lawyers, litigation attorneys, legal professionals, MK Legal Partners team" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://mklegalpartners.com/our-people" />
