@@ -1564,7 +1564,7 @@ const HomePage = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
                         property: "og:url",
-                        content: "https://mklegalpartners.com/"
+                        content: "https://www.mklegalpartners.com/"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
                         lineNumber: 24,
@@ -1588,7 +1588,7 @@ const HomePage = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
                         property: "og:image",
-                        content: "https://mklegalpartners.com/images/og-image.jpg"
+                        content: "https://www.mklegalpartners.com/images/og-image.jpg"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
                         lineNumber: 27,
@@ -1636,7 +1636,7 @@ const HomePage = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
                         property: "twitter:url",
-                        content: "https://mklegalpartners.com/"
+                        content: "https://www.mklegalpartners.com/"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
                         lineNumber: 35,
@@ -1660,7 +1660,7 @@ const HomePage = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
                         property: "twitter:image",
-                        content: "https://mklegalpartners.com/images/twitter-image.jpg"
+                        content: "https://www.mklegalpartners.com/images/twitter-image.jpg"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
                         lineNumber: 38,
@@ -1724,7 +1724,7 @@ const HomePage = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("link", {
                         rel: "canonical",
-                        href: "https://mklegalpartners.com/"
+                        href: "https://www.mklegalpartners.com/"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.tsx",
                         lineNumber: 50,
@@ -1738,7 +1738,7 @@ const HomePage = ()=>{
                                 "@type": "LawFirm",
                                 "name": "MK Legal Partners",
                                 "description": "MK Legal Partners is a premier law firm in India with over 15 years of distinguished legal expertise, specializing in Intellectual Property Rights, Trademarks, Patents, Copyright, Corporate Law, and Litigation. Our team of seasoned attorneys provides comprehensive legal solutions tailored to meet the diverse needs of businesses and individuals across India. We combine deep legal knowledge with practical experience to deliver strategic counsel and effective representation in complex legal matters. Our practice areas encompass trademark registration and protection, patent filing and prosecution, copyright enforcement, corporate compliance, commercial litigation, alternative dispute resolution, and emerging technology law. With offices strategically located in Jodhpur, Jaipur, Mumbai, and Chhattisgarh, we ensure accessible legal services nationwide. At MK Legal Partners, we are committed to excellence, integrity, and client success, offering personalized attention and innovative legal strategies. Our proven track record and client-centric approach have established us as trusted legal advisors in India's competitive legal landscape, consistently delivering favorable outcomes and protecting our clients' interests with unwavering dedication.",
-                                "url": "https://mklegalpartners.com",
+                                "url": "https://www.mklegalpartners.com",
                                 "telephone": "+916375063727",
                                 "email": "madhu.khatri14@outlook.com",
                                 "address": {
@@ -1774,10 +1774,10 @@ const HomePage = ()=>{
                                 "@context": "https://schema.org",
                                 "@type": "WebSite",
                                 "name": "MK Legal Partners",
-                                "url": "https://mklegalpartners.com",
+                                "url": "https://www.mklegalpartners.com",
                                 "potentialAction": {
                                     "@type": "SearchAction",
-                                    "target": "https://mklegalpartners.com/search?q={search_term_string}",
+                                    "target": "https://www.mklegalpartners.com/search?q={search_term_string}",
                                     "query-input": "required name=search_term_string"
                                 }
                             })
