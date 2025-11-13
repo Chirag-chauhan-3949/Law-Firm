@@ -10,7 +10,7 @@ const HomePage: React.FC = () => {
         {/* Primary Meta Tags */}
         <title>MK Legal Partners - Top Law Firm in India | Expert Legal Services</title>
         <meta name="title" content="MK Legal Partners - Top Law Firm in India | Expert Legal Services" />
-        <meta name="description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation. Call +916375063727." />
+        <meta name="description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation." />
         <meta name="keywords" content="law firm India, legal services, intellectual property rights, trademark registration, patent filing, copyright law, corporate lawyers, legal consultancy, litigation services, IPR law firm, MK Legal Partners" />
         <meta name="author" content="MK Legal Partners" />
         <meta name="robots" content="index, follow" />
