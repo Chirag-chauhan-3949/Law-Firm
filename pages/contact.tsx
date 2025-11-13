@@ -10,13 +10,15 @@ const ContactPage: React.FC = () => {
         <title>Contact MK Legal Partners - Top Law Firm in India | Free Consultation</title>
         <meta name="description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation." />
         <meta name="keywords" content="contact law firm, legal consultation, lawyer contact, MK Legal Partners phone, email lawyers, legal services India, free legal advice" />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://mklegalpartners.com/contact" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="bingbot" content="index, follow" />
+        <link rel="canonical" href="https://www.mklegalpartners.com/contact" />
         
         {/* Open Graph */}
-        <meta property="og:title" content="Contact MK Legal Partners - Top Law Firm in India | Free Consultation" />
+        <meta property="og:title" content="Contact MK Legal Partners - Get Legal Consultation" />
         <meta property="og:description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation. Call +916375063727." />
-        <meta property="og:url" content="https://mklegalpartners.com/contact" />
+        <meta property="og:url" content="https://www.mklegalpartners.com/contact" />
         <meta property="og:type" content="website" />
         
         {/* Twitter */}
@@ -33,7 +35,7 @@ const ContactPage: React.FC = () => {
               "@type": "LawFirm",
               "name": "MK Legal Partners",
               "description": "Leading law firm in India specializing in Intellectual Property Rights, Trademarks, Patents, Copyright, Corporate Law, and Litigation",
-              "url": "https://mklegalpartners.com",
+              "url": "https://www.mklegalpartners.com",
               "telephone": "+916375063727",
               "email": "madhu.khatri14@outlook.com",
               "address": [

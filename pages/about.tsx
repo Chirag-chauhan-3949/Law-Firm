@@ -10,13 +10,15 @@ const AboutPage: React.FC = () => {
         <title>About MK Legal Partners - Our Story & Legal Expertise | Top Law Firm</title>
         <meta name="description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation." />
         <meta name="keywords" content="about MK Legal Partners, law firm story, legal expertise, IP lawyers, corporate attorneys, legal team, law firm history" />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://mklegalpartners.com/about" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="bingbot" content="index, follow" />
+        <link rel="canonical" href="https://www.mklegalpartners.com/about" />
         
         {/* Open Graph */}
         <meta property="og:title" content="About MK Legal Partners - Our Story & Legal Expertise" />
         <meta property="og:description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation. Call +916375063727." />
-        <meta property="og:url" content="https://mklegalpartners.com/about" />
+        <meta property="og:url" content="https://www.mklegalpartners.com/about" />
         <meta property="og:type" content="website" />
         
         {/* Twitter */}

@@ -10,13 +10,15 @@ const PracticeAreasPage: React.FC = () => {
         <title>Practice Areas - Legal Services for Businesses & Startups | MK Legal Partners</title>
         <meta name="description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation." />
         <meta name="keywords" content="trademark registration, patent filing, copyright protection, intellectual property rights, corporate law, litigation services, ADR, cyber law, legal consultancy, IPR services" />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://mklegalpartners.com/practice-areas" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="bingbot" content="index, follow" />
+        <link rel="canonical" href="https://www.mklegalpartners.com/practice-areas" />
         
         {/* Open Graph */}
         <meta property="og:title" content="Practice Areas - Intellectual Property Rights & Legal Services" />
         <meta property="og:description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation. Call +916375063727." />
-        <meta property="og:url" content="https://mklegalpartners.com/practice-areas" />
+        <meta property="og:url" content="https://www.mklegalpartners.com/practice-areas" />
         <meta property="og:type" content="website" />
         
         {/* Twitter */}
@@ -33,11 +35,11 @@ const PracticeAreasPage: React.FC = () => {
               "@type": "ProfessionalService",
               "name": "MK Legal Partners - Practice Areas",
               "description": "Comprehensive legal services including Trademarks, Patents, Copyright, Corporate Law, Litigation, ADR, and Cyber Law",
-              "url": "https://mklegalpartners.com/practice-areas",
+              "url": "https://www.mklegalpartners.com/practice-areas",
               "provider": {
                 "@type": "LawFirm",
                 "name": "MK Legal Partners",
-                "url": "https://mklegalpartners.com"
+                "url": "https://www.mklegalpartners.com"
               },
               "hasOfferCatalog": {
                 "@type": "OfferCatalog",

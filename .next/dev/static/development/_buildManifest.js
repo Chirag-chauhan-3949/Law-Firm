@@ -1,19 +1,4 @@
 self.__BUILD_MANIFEST = {
-  "/": [
-    "static/chunks/pages/index.js"
-  ],
-  "/about": [
-    "static/chunks/pages/about.js"
-  ],
-  "/contact": [
-    "static/chunks/pages/contact.js"
-  ],
-  "/our-people": [
-    "static/chunks/pages/our-people.js"
-  ],
-  "/practice-areas": [
-    "static/chunks/pages/practice-areas.js"
-  ],
   "__rewrites": {
     "afterFiles": [],
     "beforeFiles": [],

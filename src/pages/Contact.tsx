@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle, AlertCircle, X } from 'lucide-react';
 
 const Contact: React.FC = () => {
@@ -26,15 +27,40 @@ const Contact: React.FC = () => {
     setShowSuccess(false);
     setShowError(false);
 
-    // Simulate form submission (actual submission will be handled by form action)
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setShowSuccess(true);
-      setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
-      
-      // Hide success message after 5 seconds
-      setTimeout(() => setShowSuccess(false), 5000);
-    }, 1000);
+    // EmailJS configuration - Replace with your actual service details
+    const serviceId = 'service_your_service_id'; // Replace with your EmailJS service ID
+    const templateId = 'template_your_template_id'; // Replace with your EmailJS template ID
+    const publicKey = 'your_public_key'; // Replace with your EmailJS public key
+
+    // Prepare email template parameters
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      phone: formData.phone,
+      subject: formData.subject,
+      message: formData.message,
+      to_email: 'madhu.khatri14@outlook.com',
+    };
+
+    // Send email using EmailJS
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        console.log('Email sent successfully!', response.status, response.text);
+        setIsSubmitting(false);
+        setShowSuccess(true);
+        setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
+        
+        // Hide success message after 5 seconds
+        setTimeout(() => setShowSuccess(false), 5000);
+      })
+      .catch((error) => {
+        console.error('Failed to send email:', error);
+        setIsSubmitting(false);
+        setShowError(true);
+        
+        // Hide error message after 5 seconds
+        setTimeout(() => setShowError(false), 5000);
+      });
   };
 
   // 🟢 Updated contact info with new phone numbers and email
@@ -151,18 +177,11 @@ const Contact: React.FC = () => {
               </div>
             )}
 
-            {/* Standard HTML Form with Formsubmit.co */}
+            {/* EmailJS Contact Form */}
             <form 
-              action="https://formsubmit.co/madhu.khatri14@outlook.com" 
-              method="POST"
               onSubmit={handleSubmit}
               className="space-y-6"
             >
-              {/* Hidden inputs for Formsubmit.co configuration */}
-              <input type="hidden" name="_subject" value="New Contact Form Submission from MK Legal Partners" />
-              <input type="hidden" name="_template" value="table" />
-              <input type="hidden" name="_next" value="/contact?success=true" />
-              <input type="hidden" name="_captcha" value="false" />
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>

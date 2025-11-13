@@ -10,13 +10,15 @@ const OurPeoplePage: React.FC = () => {
         <title>Our Legal Team - Expert Lawyers & Attorneys | MK Legal Partners</title>
         <meta name="description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation." />
         <meta name="keywords" content="legal team, expert lawyers, attorneys, IP lawyers, corporate lawyers, litigation attorneys, legal professionals, MK Legal Partners team" />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://mklegalpartners.com/our-people" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="bingbot" content="index, follow" />
+        <link rel="canonical" href="https://www.mklegalpartners.com/our-people" />
         
         {/* Open Graph */}
         <meta property="og:title" content="Our Legal Team - Expert Lawyers & Attorneys | MK Legal Partners" />
         <meta property="og:description" content="MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation. Call +916375063727." />
-        <meta property="og:url" content="https://mklegalpartners.com/our-people" />
+        <meta property="og:url" content="https://www.mklegalpartners.com/our-people" />
         <meta property="og:type" content="website" />
         
         {/* Twitter */}
@@ -33,11 +35,11 @@ const OurPeoplePage: React.FC = () => {
               "@type": "LegalService",
               "name": "MK Legal Partners - Our Legal Team",
               "description": "Expert legal team specializing in Intellectual Property Rights, Corporate Law, Litigation, and more",
-              "url": "https://mklegalpartners.com/our-people",
+              "url": "https://www.mklegalpartners.com/our-people",
               "provider": {
                 "@type": "LawFirm",
                 "name": "MK Legal Partners",
-                "url": "https://mklegalpartners.com"
+                "url": "https://www.mklegalpartners.com"
               },
               "employee": [
                 {
