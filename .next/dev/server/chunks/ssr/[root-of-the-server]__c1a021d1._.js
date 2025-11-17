@@ -627,6 +627,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$target$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Target$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/target.js [ssr] (ecmascript) <export default as Target>");
 ;
 ;
+const aboutusImage = "/images/aboutusimage.jpeg";
 const About = ()=>{
     const values = [
         {
@@ -680,13 +681,13 @@ const About = ()=>{
                                         children: "MK Legal Partners"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/About.tsx",
-                                        lineNumber: 42,
+                                        lineNumber: 44,
                                         columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/About.tsx",
-                                lineNumber: 41,
+                                lineNumber: 43,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -697,232 +698,325 @@ const About = ()=>{
                                 children: "MK Legal Partners is a full-service law firm committed to excellence, integrity, and client-focused legal solutions across diverse practice areas."
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/About.tsx",
-                                lineNumber: 44,
+                                lineNumber: 46,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/About.tsx",
-                        lineNumber: 40,
+                        lineNumber: 42,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/src/pages/About.tsx",
-                    lineNumber: 39,
+                    lineNumber: 41,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/pages/About.tsx",
-                lineNumber: 38,
+                lineNumber: 40,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
-                className: "py-20",
+                className: "py-20 relative overflow-hidden",
                 style: {
-                    backgroundColor: 'var(--bg)'
+                    background: 'linear-gradient(135deg, rgba(248,250,252,1) 0%, rgba(241,245,249,1) 50%, rgba(226,232,240,1) 100%)'
                 },
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-1 lg:grid-cols-2 gap-12 items-center",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                                        className: "text-4xl font-bold mb-6",
-                                        style: {
-                                            color: 'var(--text)'
-                                        },
-                                        children: "Our Story"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/pages/About.tsx",
-                                        lineNumber: 56,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                        className: "text-lg mb-6",
-                                        style: {
-                                            color: 'var(--muted)'
-                                        },
-                                        children: "Founded by Advocate and IP Attorney Madhu Khatri, MK Legal Partners offers comprehensive legal services with a specialized focus on Intellectual Property Rights, while upholding the highest standards of integrity and professionalism."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/pages/About.tsx",
-                                        lineNumber: 57,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                        className: "text-lg mb-6",
-                                        style: {
-                                            color: 'var(--muted)'
-                                        },
-                                        children: "Over the years, we have evolved into one of India’s most dynamic and rapidly expanding law firms, handling complex Legal and Intellectual Property matters across diverse industries and delivering remarkable outcomes for businesses and innovators alike."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/pages/About.tsx",
-                                        lineNumber: 60,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                        className: "text-lg",
-                                        style: {
-                                            color: 'var(--muted)'
-                                        },
-                                        children: "Today, our team of experienced advocates practices across multiple domains including Corporate Law, IPR, Mediation, Contract Drafting and Negotiation, Patent Law, and Trademark Law, Litigation. We continue to embody our founding principles of hard work, excellence, integrity, and client-centered service, which have established us as a trusted name in the legal community."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/pages/About.tsx",
-                                        lineNumber: 63,
-                                        columnNumber: 15
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/pages/About.tsx",
-                                lineNumber: 55,
-                                columnNumber: 13
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "relative",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
-                                    src: "https://images.pexels.com/photos/5668774/pexels-photo-5668774.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-                                    alt: "Law firm office",
-                                    className: "rounded-lg shadow-2xl"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/pages/About.tsx",
-                                    lineNumber: 68,
-                                    columnNumber: 15
-                                }, ("TURBOPACK compile-time value", void 0))
-                            }, void 0, false, {
-                                fileName: "[project]/src/pages/About.tsx",
-                                lineNumber: 67,
-                                columnNumber: 13
-                            }, ("TURBOPACK compile-time value", void 0))
-                        ]
-                    }, void 0, true, {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                        className: "absolute inset-0 opacity-5",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                            className: "absolute inset-0",
+                            style: {
+                                backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
+                            }
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/About.tsx",
+                            lineNumber: 59,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
+                    }, void 0, false, {
                         fileName: "[project]/src/pages/About.tsx",
-                        lineNumber: 54,
-                        columnNumber: 11
-                    }, ("TURBOPACK compile-time value", void 0))
-                }, void 0, false, {
-                    fileName: "[project]/src/pages/About.tsx",
-                    lineNumber: 53,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0))
-            }, void 0, false, {
-                fileName: "[project]/src/pages/About.tsx",
-                lineNumber: 52,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
-                className: "py-20",
-                style: {
-                    backgroundColor: 'var(--bg)'
-                },
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "text-center mb-16",
+                        lineNumber: 58,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                        className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                            className: "grid grid-cols-1 lg:grid-cols-2 gap-12 items-center",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                                    className: "text-4xl md:text-5xl font-bold mb-4",
-                                    style: {
-                                        color: 'var(--text)'
-                                    },
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                     children: [
-                                        "Our ",
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
+                                            className: "text-4xl font-bold mb-6",
                                             style: {
-                                                color: 'var(--primary)'
+                                                color: 'var(--text)'
                                             },
-                                            children: "Core Values"
+                                            children: "Our Story"
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/About.tsx",
-                                            lineNumber: 83,
-                                            columnNumber: 19
+                                            lineNumber: 67,
+                                            columnNumber: 15
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                            className: "text-lg mb-6 leading-relaxed",
+                                            style: {
+                                                color: 'var(--muted)'
+                                            },
+                                            children: "Founded by Advocate and IP Attorney Madhu Khatri, MK Legal Partners offers comprehensive legal services with a specialized focus on Intellectual Property Rights, while upholding the highest standards of integrity and professionalism."
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/pages/About.tsx",
+                                            lineNumber: 68,
+                                            columnNumber: 15
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                            className: "text-lg mb-6 leading-relaxed",
+                                            style: {
+                                                color: 'var(--muted)'
+                                            },
+                                            children: "Over the years, we have evolved into one of India's most dynamic and rapidly expanding law firms, handling complex Legal and Intellectual Property matters across diverse industries and delivering remarkable outcomes for businesses and innovators alike."
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/pages/About.tsx",
+                                            lineNumber: 71,
+                                            columnNumber: 15
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                            className: "text-lg leading-relaxed",
+                                            style: {
+                                                color: 'var(--muted)'
+                                            },
+                                            children: "Today, our team of experienced advocates practices across multiple domains including Corporate Law, IPR, Mediation, Contract Drafting and Negotiation, Patent Law, and Trademark Law, Litigation. We continue to embody our founding principles of hard work, excellence, integrity, and client-centered service, which have established us as a trusted name in the legal community."
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/pages/About.tsx",
+                                            lineNumber: 74,
+                                            columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/About.tsx",
-                                    lineNumber: 82,
+                                    lineNumber: 66,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                    className: "text-xl max-w-3xl mx-auto",
-                                    style: {
-                                        color: 'var(--muted)'
-                                    },
-                                    children: "These fundamental principles guide everything we do and define who we are as a law firm."
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                    className: "relative",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                        className: "relative group",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "absolute -inset-1 bg-gradient-to-r from-blue-400 to-purple-400 rounded-lg blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/pages/About.tsx",
+                                                lineNumber: 82,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "relative bg-white p-2 rounded-lg shadow-2xl",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
+                                                    src: `${aboutusImage}?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop&q=80`,
+                                                    alt: "Law firm office",
+                                                    className: "rounded-md w-full h-auto object-cover"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/pages/About.tsx",
+                                                    lineNumber: 86,
+                                                    columnNumber: 19
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/pages/About.tsx",
+                                                lineNumber: 85,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "absolute -top-2 -right-2 w-8 h-8 border-t-2 border-r-2 border-blue-400 rounded-tr-lg"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/pages/About.tsx",
+                                                lineNumber: 94,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "absolute -bottom-2 -left-2 w-8 h-8 border-b-2 border-l-2 border-purple-400 rounded-bl-lg"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/pages/About.tsx",
+                                                lineNumber: 95,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/pages/About.tsx",
+                                        lineNumber: 80,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/About.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 78,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/About.tsx",
-                            lineNumber: 81,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8",
-                            children: values.map((value, index)=>{
-                                const Icon = value.icon;
-                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "text-center p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300",
-                                    style: {
-                                        backgroundColor: 'white'
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Icon, {
-                                            className: "h-16 w-16 mx-auto mb-6",
-                                            style: {
-                                                color: 'var(--primary)'
-                                            }
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/pages/About.tsx",
-                                            lineNumber: 100,
-                                            columnNumber: 19
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                            className: "text-xl font-bold mb-4",
-                                            style: {
-                                                color: 'var(--text)'
-                                            },
-                                            children: value.title
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/pages/About.tsx",
-                                            lineNumber: 101,
-                                            columnNumber: 19
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            style: {
-                                                color: 'var(--muted)'
-                                            },
-                                            children: value.description
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/pages/About.tsx",
-                                            lineNumber: 102,
-                                            columnNumber: 19
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, index, true, {
-                                    fileName: "[project]/src/pages/About.tsx",
-                                    lineNumber: 95,
-                                    columnNumber: 17
-                                }, ("TURBOPACK compile-time value", void 0));
-                            })
-                        }, void 0, false, {
-                            fileName: "[project]/src/pages/About.tsx",
-                            lineNumber: 91,
+                            lineNumber: 65,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/pages/About.tsx",
-                    lineNumber: 80,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0))
-            }, void 0, false, {
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/About.tsx",
+                        lineNumber: 64,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/pages/About.tsx",
-                lineNumber: 79,
+                lineNumber: 54,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
+                className: "py-20 relative overflow-hidden",
+                style: {
+                    background: 'linear-gradient(135deg, rgba(226,232,240,1) 0%, rgba(248,250,252,1) 50%, rgba(241,245,249,1) 100%)'
+                },
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                        className: "absolute inset-0 opacity-5",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                            className: "absolute inset-0",
+                            style: {
+                                backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
+                            }
+                        }, void 0, false, {
+                            fileName: "[project]/src/pages/About.tsx",
+                            lineNumber: 108,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
+                    }, void 0, false, {
+                        fileName: "[project]/src/pages/About.tsx",
+                        lineNumber: 107,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                        className: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                className: "text-center mb-16",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
+                                        className: "text-4xl md:text-5xl font-bold mb-4",
+                                        style: {
+                                            color: 'var(--text)'
+                                        },
+                                        children: [
+                                            "Our ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                style: {
+                                                    color: 'var(--primary)'
+                                                },
+                                                children: "Core Values"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/pages/About.tsx",
+                                                lineNumber: 116,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/pages/About.tsx",
+                                        lineNumber: 115,
+                                        columnNumber: 13
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                        className: "text-xl max-w-3xl mx-auto leading-relaxed",
+                                        style: {
+                                            color: 'var(--muted)'
+                                        },
+                                        children: "These fundamental principles guide everything we do and define who we are as a law firm."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/pages/About.tsx",
+                                        lineNumber: 118,
+                                        columnNumber: 13
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/pages/About.tsx",
+                                lineNumber: 114,
+                                columnNumber: 11
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8",
+                                children: values.map((value, index)=>{
+                                    const Icon = value.icon;
+                                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                        className: "text-center p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group",
+                                        style: {
+                                            backgroundColor: 'white',
+                                            border: '1px solid rgba(59, 130, 246, 0.1)'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "relative inline-block mb-6",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Icon, {
+                                                        className: "h-16 w-16 mx-auto transition-transform duration-300 group-hover:scale-110",
+                                                        style: {
+                                                            color: 'var(--primary)'
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/pages/About.tsx",
+                                                        lineNumber: 137,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                        className: "absolute inset-0 bg-blue-400 rounded-full blur-xl opacity-0 group-hover:opacity-20 transition-opacity duration-300"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/pages/About.tsx",
+                                                        lineNumber: 138,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/pages/About.tsx",
+                                                lineNumber: 136,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
+                                                className: "text-xl font-bold mb-4",
+                                                style: {
+                                                    color: 'var(--text)'
+                                                },
+                                                children: value.title
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/pages/About.tsx",
+                                                lineNumber: 140,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                className: "leading-relaxed",
+                                                style: {
+                                                    color: 'var(--muted)'
+                                                },
+                                                children: value.description
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/pages/About.tsx",
+                                                lineNumber: 141,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, index, true, {
+                                        fileName: "[project]/src/pages/About.tsx",
+                                        lineNumber: 128,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0));
+                                })
+                            }, void 0, false, {
+                                fileName: "[project]/src/pages/About.tsx",
+                                lineNumber: 124,
+                                columnNumber: 11
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/pages/About.tsx",
+                        lineNumber: 113,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/pages/About.tsx",
+                lineNumber: 103,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -944,12 +1038,12 @@ const About = ()=>{
                                     className: "rounded-lg shadow-2xl"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/About.tsx",
-                                    lineNumber: 115,
+                                    lineNumber: 154,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/pages/About.tsx",
-                                lineNumber: 114,
+                                lineNumber: 153,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -965,13 +1059,13 @@ const About = ()=>{
                                                 children: "Mission"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/pages/About.tsx",
-                                                lineNumber: 123,
+                                                lineNumber: 162,
                                                 columnNumber: 21
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/pages/About.tsx",
-                                        lineNumber: 122,
+                                        lineNumber: 161,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -982,35 +1076,35 @@ const About = ()=>{
                                         children: "To provide exceptional legal representation that combines deep expertise with personalized attention, ensuring every client receives the dedicated advocacy they deserve while maintaining the highest standards of professional integrity."
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/About.tsx",
-                                        lineNumber: 125,
+                                        lineNumber: 164,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/pages/About.tsx",
-                                lineNumber: 121,
+                                lineNumber: 160,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/pages/About.tsx",
-                        lineNumber: 113,
+                        lineNumber: 152,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/src/pages/About.tsx",
-                    lineNumber: 112,
+                    lineNumber: 151,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/pages/About.tsx",
-                lineNumber: 111,
+                lineNumber: 150,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/pages/About.tsx",
-        lineNumber: 29,
+        lineNumber: 31,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -1045,7 +1139,7 @@ const AboutPage = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
                         name: "description",
-                        content: "Learn about MK Legal Partners, a leading law firm in India with 15+ years of experience in Intellectual Property Rights, Corporate Law, and Litigation. Meet our expert legal team."
+                        content: "MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation."
                     }, void 0, false, {
                         fileName: "[project]/pages/about.tsx",
                         lineNumber: 11,
@@ -1061,18 +1155,34 @@ const AboutPage = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
                         name: "robots",
-                        content: "index, follow"
+                        content: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
                     }, void 0, false, {
                         fileName: "[project]/pages/about.tsx",
                         lineNumber: 13,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("link", {
-                        rel: "canonical",
-                        href: "https://mklegalpartners.com/about"
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
+                        name: "googlebot",
+                        content: "index, follow"
                     }, void 0, false, {
                         fileName: "[project]/pages/about.tsx",
                         lineNumber: 14,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
+                        name: "bingbot",
+                        content: "index, follow"
+                    }, void 0, false, {
+                        fileName: "[project]/pages/about.tsx",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("link", {
+                        rel: "canonical",
+                        href: "https://www.mklegalpartners.com/about"
+                    }, void 0, false, {
+                        fileName: "[project]/pages/about.tsx",
+                        lineNumber: 16,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -1080,23 +1190,23 @@ const AboutPage = ()=>{
                         content: "About MK Legal Partners - Our Story & Legal Expertise"
                     }, void 0, false, {
                         fileName: "[project]/pages/about.tsx",
-                        lineNumber: 17,
+                        lineNumber: 19,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
                         property: "og:description",
-                        content: "Learn about MK Legal Partners, a leading law firm in India with 15+ years of experience in Intellectual Property Rights, Corporate Law, and Litigation."
+                        content: "MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation. Call +916375063727."
                     }, void 0, false, {
                         fileName: "[project]/pages/about.tsx",
-                        lineNumber: 18,
+                        lineNumber: 20,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
                         property: "og:url",
-                        content: "https://mklegalpartners.com/about"
+                        content: "https://www.mklegalpartners.com/about"
                     }, void 0, false, {
                         fileName: "[project]/pages/about.tsx",
-                        lineNumber: 19,
+                        lineNumber: 21,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -1104,7 +1214,7 @@ const AboutPage = ()=>{
                         content: "website"
                     }, void 0, false, {
                         fileName: "[project]/pages/about.tsx",
-                        lineNumber: 20,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -1112,15 +1222,15 @@ const AboutPage = ()=>{
                         content: "About MK Legal Partners - Our Story & Legal Expertise"
                     }, void 0, false, {
                         fileName: "[project]/pages/about.tsx",
-                        lineNumber: 23,
+                        lineNumber: 25,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
                         property: "twitter:description",
-                        content: "Learn about MK Legal Partners, a leading law firm in India with 15+ years of experience in Intellectual Property Rights, Corporate Law, and Litigation."
+                        content: "MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation. Call +916375063727."
                     }, void 0, false, {
                         fileName: "[project]/pages/about.tsx",
-                        lineNumber: 24,
+                        lineNumber: 26,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -1128,7 +1238,7 @@ const AboutPage = ()=>{
                         content: "summary_large_image"
                     }, void 0, false, {
                         fileName: "[project]/pages/about.tsx",
-                        lineNumber: 25,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -1140,12 +1250,12 @@ const AboutPage = ()=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Layout$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$About$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/pages/about.tsx",
-                    lineNumber: 28,
+                    lineNumber: 30,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/pages/about.tsx",
-                lineNumber: 27,
+                lineNumber: 29,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]

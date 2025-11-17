@@ -1633,7 +1633,7 @@ const PracticeAreasPage = ()=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
-                        children: "Practice Areas - Intellectual Property Rights & Legal Services | MK Legal Partners"
+                        children: "Practice Areas - Legal Services for Businesses & Startups | MK Legal Partners"
                     }, void 0, false, {
                         fileName: "[project]/pages/practice-areas.tsx",
                         lineNumber: 10,
@@ -1641,7 +1641,7 @@ const PracticeAreasPage = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
                         name: "description",
-                        content: "Explore our comprehensive legal services including Trademarks, Patents, Copyright, Corporate Law, Litigation, ADR, and Cyber Law. Expert legal solutions for businesses and individuals."
+                        content: "MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation."
                     }, void 0, false, {
                         fileName: "[project]/pages/practice-areas.tsx",
                         lineNumber: 11,
@@ -1657,18 +1657,34 @@ const PracticeAreasPage = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
                         name: "robots",
-                        content: "index, follow"
+                        content: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
                     }, void 0, false, {
                         fileName: "[project]/pages/practice-areas.tsx",
                         lineNumber: 13,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
-                        rel: "canonical",
-                        href: "https://mklegalpartners.com/practice-areas"
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
+                        name: "googlebot",
+                        content: "index, follow"
                     }, void 0, false, {
                         fileName: "[project]/pages/practice-areas.tsx",
                         lineNumber: 14,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
+                        name: "bingbot",
+                        content: "index, follow"
+                    }, void 0, false, {
+                        fileName: "[project]/pages/practice-areas.tsx",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
+                        rel: "canonical",
+                        href: "https://www.mklegalpartners.com/practice-areas"
+                    }, void 0, false, {
+                        fileName: "[project]/pages/practice-areas.tsx",
+                        lineNumber: 16,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -1676,23 +1692,23 @@ const PracticeAreasPage = ()=>{
                         content: "Practice Areas - Intellectual Property Rights & Legal Services"
                     }, void 0, false, {
                         fileName: "[project]/pages/practice-areas.tsx",
-                        lineNumber: 17,
+                        lineNumber: 19,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
                         property: "og:description",
-                        content: "Explore our comprehensive legal services including Trademarks, Patents, Copyright, Corporate Law, Litigation, ADR, and Cyber Law. Expert legal solutions for businesses and individuals."
+                        content: "MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation. Call +916375063727."
                     }, void 0, false, {
                         fileName: "[project]/pages/practice-areas.tsx",
-                        lineNumber: 18,
+                        lineNumber: 20,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
                         property: "og:url",
-                        content: "https://mklegalpartners.com/practice-areas"
+                        content: "https://www.mklegalpartners.com/practice-areas"
                     }, void 0, false, {
                         fileName: "[project]/pages/practice-areas.tsx",
-                        lineNumber: 19,
+                        lineNumber: 21,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -1700,7 +1716,7 @@ const PracticeAreasPage = ()=>{
                         content: "website"
                     }, void 0, false, {
                         fileName: "[project]/pages/practice-areas.tsx",
-                        lineNumber: 20,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -1708,15 +1724,15 @@ const PracticeAreasPage = ()=>{
                         content: "Practice Areas - Intellectual Property Rights & Legal Services"
                     }, void 0, false, {
                         fileName: "[project]/pages/practice-areas.tsx",
-                        lineNumber: 23,
+                        lineNumber: 25,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
                         property: "twitter:description",
-                        content: "Explore our comprehensive legal services including Trademarks, Patents, Copyright, Corporate Law, Litigation, ADR, and Cyber Law."
+                        content: "MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation. Call +916375063727."
                     }, void 0, false, {
                         fileName: "[project]/pages/practice-areas.tsx",
-                        lineNumber: 24,
+                        lineNumber: 26,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -1724,7 +1740,7 @@ const PracticeAreasPage = ()=>{
                         content: "summary_large_image"
                     }, void 0, false, {
                         fileName: "[project]/pages/practice-areas.tsx",
-                        lineNumber: 25,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
@@ -1735,11 +1751,11 @@ const PracticeAreasPage = ()=>{
                                 "@type": "ProfessionalService",
                                 "name": "MK Legal Partners - Practice Areas",
                                 "description": "Comprehensive legal services including Trademarks, Patents, Copyright, Corporate Law, Litigation, ADR, and Cyber Law",
-                                "url": "https://mklegalpartners.com/practice-areas",
+                                "url": "https://www.mklegalpartners.com/practice-areas",
                                 "provider": {
                                     "@type": "LawFirm",
                                     "name": "MK Legal Partners",
-                                    "url": "https://mklegalpartners.com"
+                                    "url": "https://www.mklegalpartners.com"
                                 },
                                 "hasOfferCatalog": {
                                     "@type": "OfferCatalog",
@@ -1791,7 +1807,7 @@ const PracticeAreasPage = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/pages/practice-areas.tsx",
-                        lineNumber: 28,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -1803,12 +1819,12 @@ const PracticeAreasPage = ()=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Layout$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$PracticeAreas$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/pages/practice-areas.tsx",
-                    lineNumber: 93,
+                    lineNumber: 95,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/pages/practice-areas.tsx",
-                lineNumber: 92,
+                lineNumber: 94,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]

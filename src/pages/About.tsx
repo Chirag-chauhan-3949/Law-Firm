@@ -1,6 +1,8 @@
 import React from 'react';
 import { Award, Users, Shield, Target } from 'lucide-react';
 
+const aboutusImage = "/images/aboutusimage.jpeg";
+
 const About: React.FC = () => {
   const values = [
     {
@@ -49,40 +51,71 @@ const About: React.FC = () => {
       </section>
 
       {/* Story Section */}
-      <section className="py-20" style={{ backgroundColor: 'var(--bg)' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 relative overflow-hidden" style={{ 
+        background: 'linear-gradient(135deg, rgba(248,250,252,1) 0%, rgba(241,245,249,1) 50%, rgba(226,232,240,1) 100%)'
+      }}>
+        {/* Subtle background pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute inset-0" style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          }}></div>
+        </div>
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-bold mb-6" style={{ color: 'var(--text)' }}>Our Story</h2>
-              <p className="text-lg mb-6" style={{ color: 'var(--muted)' }}>
+              <p className="text-lg mb-6 leading-relaxed" style={{ color: 'var(--muted)' }}>
                 Founded by Advocate and IP Attorney Madhu Khatri, MK Legal Partners offers comprehensive legal services with a specialized focus on Intellectual Property Rights, while upholding the highest standards of integrity and professionalism.
               </p>
-              <p className="text-lg mb-6" style={{ color: 'var(--muted)' }}>
-                Over the years, we have evolved into one of India’s most dynamic and rapidly expanding law firms, handling complex Legal and Intellectual Property matters across diverse industries and delivering remarkable outcomes for businesses and innovators alike.
+              <p className="text-lg mb-6 leading-relaxed" style={{ color: 'var(--muted)' }}>
+                Over the years, we have evolved into one of India's most dynamic and rapidly expanding law firms, handling complex Legal and Intellectual Property matters across diverse industries and delivering remarkable outcomes for businesses and innovators alike.
               </p>
-              <p className="text-lg" style={{ color: 'var(--muted)' }}>
+              <p className="text-lg leading-relaxed" style={{ color: 'var(--muted)' }}>
                 Today, our team of experienced advocates practices across multiple domains including Corporate Law, IPR, Mediation, Contract Drafting and Negotiation, Patent Law, and Trademark Law, Litigation. We continue to embody our founding principles of hard work, excellence, integrity, and client-centered service, which have established us as a trusted name in the legal community.
               </p>
             </div>
             <div className="relative">
-              <img
-                src="https://images.pexels.com/photos/5668774/pexels-photo-5668774.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
-                alt="Law firm office"
-                className="rounded-lg shadow-2xl"
-              />
+              {/* Image container with enhanced styling */}
+              <div className="relative group">
+                {/* Glow effect behind image */}
+                <div className="absolute -inset-1 bg-gradient-to-r from-blue-400 to-purple-400 rounded-lg blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
+                
+                {/* Main image */}
+                <div className="relative bg-white p-2 rounded-lg shadow-2xl">
+                  <img
+                    src={`${aboutusImage}?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop&q=80`}
+                    alt="Law firm office"
+                    className="rounded-md w-full h-auto object-cover"
+                  />
+                </div>
+                
+                {/* Decorative corner elements */}
+                <div className="absolute -top-2 -right-2 w-8 h-8 border-t-2 border-r-2 border-blue-400 rounded-tr-lg"></div>
+                <div className="absolute -bottom-2 -left-2 w-8 h-8 border-b-2 border-l-2 border-purple-400 rounded-bl-lg"></div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Values Section */}
-      <section className="py-20" style={{ backgroundColor: 'var(--bg)' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 relative overflow-hidden" style={{ 
+        background: 'linear-gradient(135deg, rgba(226,232,240,1) 0%, rgba(248,250,252,1) 50%, rgba(241,245,249,1) 100%)'
+      }}>
+        {/* Subtle background pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute inset-0" style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          }}></div>
+        </div>
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4" style={{ color: 'var(--text)' }}>
               Our <span style={{ color: 'var(--primary)' }}>Core Values</span>
             </h2>
-            <p className="text-xl max-w-3xl mx-auto" style={{ color: 'var(--muted)' }}>
+            <p className="text-xl max-w-3xl mx-auto leading-relaxed" style={{ color: 'var(--muted)' }}>
               These fundamental principles guide everything we do and define
               who we are as a law firm.
             </p>
@@ -94,12 +127,18 @@ const About: React.FC = () => {
               return (
                 <div
                   key={index}
-                  className="text-center p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
-                  style={{ backgroundColor: 'white' }}
+                  className="text-center p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group"
+                  style={{ 
+                    backgroundColor: 'white',
+                    border: '1px solid rgba(59, 130, 246, 0.1)'
+                  }}
                 >
-                  <Icon className="h-16 w-16 mx-auto mb-6" style={{ color: 'var(--primary)' }} />
+                  <div className="relative inline-block mb-6">
+                    <Icon className="h-16 w-16 mx-auto transition-transform duration-300 group-hover:scale-110" style={{ color: 'var(--primary)' }} />
+                    <div className="absolute inset-0 bg-blue-400 rounded-full blur-xl opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                  </div>
                   <h3 className="text-xl font-bold mb-4" style={{ color: 'var(--text)' }}>{value.title}</h3>
-                  <p style={{ color: 'var(--muted)' }}>{value.description}</p>
+                  <p className="leading-relaxed" style={{ color: 'var(--muted)' }}>{value.description}</p>
                 </div>
               );
             })}

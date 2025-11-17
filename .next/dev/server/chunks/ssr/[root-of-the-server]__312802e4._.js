@@ -628,10 +628,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 ;
 ;
+const madhuKhatri = "/images/ourPeople/Madhu_Khatri.jpeg";
 const chitrasundar = "/images/ourPeople/Chitra_Sundar.jpeg";
 const adityabhagwani = "/images/ourPeople/Aditya_Bhagwani.jpg";
 const kushagraagarwal = "/images/ourPeople/Kushagra_Agarwal.jpeg";
-const Grahitaagarwal = "/images/ourPeople/grahita_agarwal.jpeg";
 const kaminijoshi = "/images/ourPeople/kamini_joshi.jpeg";
 const OurPeople = ()=>{
     const attorneys = [
@@ -639,7 +639,7 @@ const OurPeople = ()=>{
             name: 'Madhu Khatri',
             title: 'Founding Partner',
             education: 'LL.B.; Registered Trademark Attorney',
-            image: 'https://images.pexels.com/photos/5668869/pexels-photo-5668869.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop',
+            image: `${madhuKhatri}?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop`,
             bio: `With 6 years of experience as an IP and commercial lawyer, Madhu is passionate about helping clients protect, manage, and enforce their intellectual property rights across diverse sectors and markets. She is the founding partner of MK Legal Partners and a Registered Trademark Attorney, providing expert advice and solutions across all areas of intellectual property law. Madhu has practiced before the Delhi High Court and has extensive experience in handling complex and high-stakes IP matters for renowned companies across the pharmaceutical, IT, banking, food, manufacturing, and machinery sectors. She is also practicing before the Rajasthan High Court, where she handles commercial & arbitration matters, as well as other civil litigation, providing strategic guidance and effective resolution of complex disputes.`
         },
         {
@@ -1038,7 +1038,7 @@ const OurPeoplePage = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
                         name: "description",
-                        content: "Meet our expert legal team at MK Legal Partners. Experienced lawyers specializing in Intellectual Property Rights, Corporate Law, Litigation, and more. Top legal professionals in India."
+                        content: "MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation."
                     }, void 0, false, {
                         fileName: "[project]/pages/our-people.tsx",
                         lineNumber: 11,
@@ -1054,18 +1054,34 @@ const OurPeoplePage = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
                         name: "robots",
-                        content: "index, follow"
+                        content: "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
                     }, void 0, false, {
                         fileName: "[project]/pages/our-people.tsx",
                         lineNumber: 13,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("link", {
-                        rel: "canonical",
-                        href: "https://mklegalpartners.com/our-people"
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
+                        name: "googlebot",
+                        content: "index, follow"
                     }, void 0, false, {
                         fileName: "[project]/pages/our-people.tsx",
                         lineNumber: 14,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
+                        name: "bingbot",
+                        content: "index, follow"
+                    }, void 0, false, {
+                        fileName: "[project]/pages/our-people.tsx",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("link", {
+                        rel: "canonical",
+                        href: "https://www.mklegalpartners.com/our-people"
+                    }, void 0, false, {
+                        fileName: "[project]/pages/our-people.tsx",
+                        lineNumber: 16,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -1073,23 +1089,23 @@ const OurPeoplePage = ()=>{
                         content: "Our Legal Team - Expert Lawyers & Attorneys | MK Legal Partners"
                     }, void 0, false, {
                         fileName: "[project]/pages/our-people.tsx",
-                        lineNumber: 17,
+                        lineNumber: 19,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
                         property: "og:description",
-                        content: "Meet our expert legal team at MK Legal Partners. Experienced lawyers specializing in Intellectual Property Rights, Corporate Law, Litigation, and more."
+                        content: "MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation. Call +916375063727."
                     }, void 0, false, {
                         fileName: "[project]/pages/our-people.tsx",
-                        lineNumber: 18,
+                        lineNumber: 20,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
                         property: "og:url",
-                        content: "https://mklegalpartners.com/our-people"
+                        content: "https://www.mklegalpartners.com/our-people"
                     }, void 0, false, {
                         fileName: "[project]/pages/our-people.tsx",
-                        lineNumber: 19,
+                        lineNumber: 21,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -1097,7 +1113,7 @@ const OurPeoplePage = ()=>{
                         content: "website"
                     }, void 0, false, {
                         fileName: "[project]/pages/our-people.tsx",
-                        lineNumber: 20,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -1105,15 +1121,15 @@ const OurPeoplePage = ()=>{
                         content: "Our Legal Team - Expert Lawyers & Attorneys"
                     }, void 0, false, {
                         fileName: "[project]/pages/our-people.tsx",
-                        lineNumber: 23,
+                        lineNumber: 25,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
                         property: "twitter:description",
-                        content: "Meet our expert legal team at MK Legal Partners. Experienced lawyers specializing in Intellectual Property Rights, Corporate Law, Litigation, and more."
+                        content: "MK Legal Partners: Premier law firm in India with 15+ years expertise in IPR, Trademarks, Patents, Copyright, Corporate Law & Litigation. Call +916375063727."
                     }, void 0, false, {
                         fileName: "[project]/pages/our-people.tsx",
-                        lineNumber: 24,
+                        lineNumber: 26,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("meta", {
@@ -1121,7 +1137,7 @@ const OurPeoplePage = ()=>{
                         content: "summary_large_image"
                     }, void 0, false, {
                         fileName: "[project]/pages/our-people.tsx",
-                        lineNumber: 25,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("script", {
@@ -1132,11 +1148,11 @@ const OurPeoplePage = ()=>{
                                 "@type": "LegalService",
                                 "name": "MK Legal Partners - Our Legal Team",
                                 "description": "Expert legal team specializing in Intellectual Property Rights, Corporate Law, Litigation, and more",
-                                "url": "https://mklegalpartners.com/our-people",
+                                "url": "https://www.mklegalpartners.com/our-people",
                                 "provider": {
                                     "@type": "LawFirm",
                                     "name": "MK Legal Partners",
-                                    "url": "https://mklegalpartners.com"
+                                    "url": "https://www.mklegalpartners.com"
                                 },
                                 "employee": [
                                     {
@@ -1157,7 +1173,7 @@ const OurPeoplePage = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/pages/our-people.tsx",
-                        lineNumber: 28,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -1169,12 +1185,12 @@ const OurPeoplePage = ()=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Layout$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$pages$2f$OurPeople$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/pages/our-people.tsx",
-                    lineNumber: 56,
+                    lineNumber: 58,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/pages/our-people.tsx",
-                lineNumber: 55,
+                lineNumber: 57,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]

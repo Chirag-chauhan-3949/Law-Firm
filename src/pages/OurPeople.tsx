@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Award, BookOpen, Users } from 'lucide-react';
 
+const madhuKhatri = "/images/ourPeople/Madhu_Khatri.jpeg";
 const chitrasundar = "/images/ourPeople/Chitra_Sundar.jpeg";
 const adityabhagwani = "/images/ourPeople/Aditya_Bhagwani.jpg";
 const kushagraagarwal = "/images/ourPeople/Kushagra_Agarwal.jpeg";
-const Grahitaagarwal = "/images/ourPeople/grahita_agarwal.jpeg";
 const kaminijoshi = "/images/ourPeople/kamini_joshi.jpeg";
 
 const OurPeople: React.FC = () => {
@@ -13,7 +13,7 @@ const OurPeople: React.FC = () => {
       name: 'Madhu Khatri',
       title: 'Founding Partner',
       education: 'LL.B.; Registered Trademark Attorney',
-      image: 'https://images.pexels.com/photos/5668869/pexels-photo-5668869.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop',
+      image: `${madhuKhatri}?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop`,
       bio: `With 6 years of experience as an IP and commercial lawyer, Madhu is passionate about helping clients protect, manage, and enforce their intellectual property rights across diverse sectors and markets. She is the founding partner of MK Legal Partners and a Registered Trademark Attorney, providing expert advice and solutions across all areas of intellectual property law. Madhu has practiced before the Delhi High Court and has extensive experience in handling complex and high-stakes IP matters for renowned companies across the pharmaceutical, IT, banking, food, manufacturing, and machinery sectors. She is also practicing before the Rajasthan High Court, where she handles commercial & arbitration matters, as well as other civil litigation, providing strategic guidance and effective resolution of complex disputes.`,
     },
     {
