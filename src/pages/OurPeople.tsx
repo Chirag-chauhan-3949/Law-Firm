@@ -26,7 +26,7 @@ const OurPeople: React.FC = () => {
     },
      {
       name: 'Ranu Purohit',
-      title: 'Advocate on Record – Supreme Court of India',
+      title: 'Of Counsel — – Supreme Court of India',
       education: 'B.S.L., LL.B – ILS Law College and LL.M',
       image: `${ranupurohit}?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop`,
       bio: `Ranu Purohit is an Advocate-on-Record at the Supreme Court of India with over a decade of experience in high-stakes litigation across diverse legal forums. She has represented a wide spectrum of clients before the Supreme Court, the Delhi High Court, and tribunals such as the National Green Tribunal, National Consumer Disputes Redressal Commission, Company Law Tribunals, District and Labour Courts, and the PMLA Appellate Tribunal.\n\nHer core expertise lies in Commercial Litigation, Constitutional Law, and Environment Law handling both contentious and advisory matters backed by strong research and analytical skills. She is empaneled as a Panel Advocate for the Supreme Court of India with the National Handloom Development Corporation (NHDC) and serves on the Labour Panel of the Delhi High Court Legal Services Committee (DHC-LSC).\n\nRanu has previously served as Legal Manager at the National Green Tribunal, working on matters of national environmental importance. She has represented the Wildlife and Environment Conservation Organization in the high-profile Baghjan, Assam oil spill case. Her analytical articles have been featured in LiveLaw.\n\nRanu holds a B.S.L., LL.B. from ILS Law College, Pune (2014), and an LL.M. from Jai Narain Vyas University, Jodhpur (2017). She is currently pursuing her Ph.D. at the same university, focusing on regulatory reforms to address India's evolving environmental challenges.`,
