@@ -1,5 +1,9 @@
 {
+  "/": "pages/index.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/about": "pages/about.js"
+  "/about": "pages/about.js",
+  "/contact": "pages/contact.js",
+  "/our-people": "pages/our-people.js",
+  "/practice-areas": "pages/practice-areas.js"
 }

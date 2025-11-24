@@ -1,4 +1,5 @@
 __turbopack_load_page_chunks__("/our-people", [
+  "static/chunks/[root-of-the-server]__a99d2929._.js",
   "static/chunks/node_modules_next_dist_compiled_c629999b._.js",
   "static/chunks/node_modules_next_dist_shared_lib_2202bc1a._.js",
   "static/chunks/node_modules_next_dist_client_3ede7da4._.js",
@@ -6,7 +7,6 @@ __turbopack_load_page_chunks__("/our-people", [
   "static/chunks/node_modules_next_1e915a6b._.js",
   "static/chunks/node_modules_react-dom_4411d9bd._.js",
   "static/chunks/node_modules_e25cdb5d._.js",
-  "static/chunks/[root-of-the-server]__a99d2929._.js",
   "static/chunks/pages_our-people_2da965e7._.js",
-  "static/chunks/turbopack-pages_our-people_754e5da0._.js"
+  "static/chunks/turbopack-pages_our-people_62e9973a._.js"
 ])

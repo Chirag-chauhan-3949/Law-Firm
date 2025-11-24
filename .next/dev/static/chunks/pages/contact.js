@@ -6,7 +6,7 @@ __turbopack_load_page_chunks__("/contact", [
   "static/chunks/node_modules_next_dist_6024eba3._.js",
   "static/chunks/node_modules_next_1e915a6b._.js",
   "static/chunks/node_modules_react-dom_4411d9bd._.js",
-  "static/chunks/node_modules_fd4f4253._.js",
+  "static/chunks/node_modules_41712b45._.js",
   "static/chunks/pages_contact_2da965e7._.js",
-  "static/chunks/turbopack-pages_contact_1e921e76._.js"
+  "static/chunks/turbopack-pages_contact_e21ac96d._.js"
 ])

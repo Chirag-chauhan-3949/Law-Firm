@@ -26,7 +26,7 @@ const Home: React.FC = () => {
   ];
   const stats = [
     { number: "15+", label: "Years of Experience" },
-    { number: "5", label: "Expert Attorneys" },
+    { number: "7", label: "Expert Attorneys" },
   ];
 
   const services = [

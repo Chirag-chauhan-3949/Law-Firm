@@ -6,13 +6,14 @@ const chitrasundar = "/images/ourPeople/Chitra_Sundar.jpeg";
 const adityabhagwani = "/images/ourPeople/Aditya_Bhagwani.jpg";
 const kushagraagarwal = "/images/ourPeople/Kushagra_Agarwal.jpeg";
 const kaminijoshi = "/images/ourPeople/kamini_joshi.jpeg";
+const ranupurohit = "/images/ourPeople/Ranu_purohit.jpeg";
 
 const OurPeople: React.FC = () => {
   const attorneys = [
     {
       name: 'Madhu Khatri',
       title: 'Founding Partner',
-      education: 'LL.B.; Registered Trademark Attorney',
+      education: ' BBA LLB',
       image: `${madhuKhatri}?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop`,
       bio: `With 6 years of experience as an IP and commercial lawyer, Madhu is passionate about helping clients protect, manage, and enforce their intellectual property rights across diverse sectors and markets. She is the founding partner of MK Legal Partners and a Registered Trademark Attorney, providing expert advice and solutions across all areas of intellectual property law. Madhu has practiced before the Delhi High Court and has extensive experience in handling complex and high-stakes IP matters for renowned companies across the pharmaceutical, IT, banking, food, manufacturing, and machinery sectors. She is also practicing before the Rajasthan High Court, where she handles commercial & arbitration matters, as well as other civil litigation, providing strategic guidance and effective resolution of complex disputes.`,
     },
@@ -23,27 +24,32 @@ const OurPeople: React.FC = () => {
       image: `${chitrasundar}?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop`,
       bio: `Chitra is a qualified lawyer with over 13 years of experience, specializing in IP prosecution and litigation, arbitration, and general civil and commercial litigation. She holds a B.Tech in Rubber and Plastics Technology from the Madras Institute of Technology and a law degree from the School of Excellence in Law, Chennai. She is also a Registered Patent Agent with specialized expertise in patent law. She began her practice at the Madras High Court and is currently practicing before the Bombay High Court and subordinate courts. Over the years, Chitra has developed extensive experience in managing complex patent filings, IP enforcement, licensing, and disputes, providing clients with practical, strategic, and technically informed solutions. Her unique combination of a strong technical background and legal expertise enables her to effectively bridge the gap between innovation and law, assisting clients in protecting, managing, and enforcing their intellectual property across diverse industries.`,
     },
+     {
+      name: 'Ranu Purohit',
+      title: 'Advocate on Record – Supreme Court of India',
+      education: 'B.S.L., LL.B – ILS Law College and LL.M',
+      image: `${ranupurohit}?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop`,
+      bio: `Ranu Purohit is an Advocate-on-Record at the Supreme Court of India with over a decade of experience in high-stakes litigation across diverse legal forums. She has represented a wide spectrum of clients before the Supreme Court, the Delhi High Court, and tribunals such as the National Green Tribunal, National Consumer Disputes Redressal Commission, Company Law Tribunals, District and Labour Courts, and the PMLA Appellate Tribunal.\n\nHer core expertise lies in Commercial Litigation, Constitutional Law, and Environment Law handling both contentious and advisory matters backed by strong research and analytical skills. She is empaneled as a Panel Advocate for the Supreme Court of India with the National Handloom Development Corporation (NHDC) and serves on the Labour Panel of the Delhi High Court Legal Services Committee (DHC-LSC).\n\nRanu has previously served as Legal Manager at the National Green Tribunal, working on matters of national environmental importance. She has represented the Wildlife and Environment Conservation Organization in the high-profile Baghjan, Assam oil spill case. Her analytical articles have been featured in LiveLaw.\n\nRanu holds a B.S.L., LL.B. from ILS Law College, Pune (2014), and an LL.M. from Jai Narain Vyas University, Jodhpur (2017). She is currently pursuing her Ph.D. at the same university, focusing on regulatory reforms to address India's evolving environmental challenges.`,
+    },
     {
       name: 'Adv. Kamini Joshi',
       title: 'Partner',
-      // education: 'LL.B., Rajasthan University',
       image: `${kaminijoshi}?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop`,
       bio: `Adv. Kamini Joshi practices before the Hon'ble Rajasthan High Court and handles a diverse range of cases, including Public Interest Litigations (PILs), Service Matters, Civil Disputes, and Criminal Matters. She is known for her diligent advocacy, analytical approach, and dedication to upholding justice.`,
     },
     {
       name: 'Kushagra Agarwal',
       title: 'Partner — Jaipur',
-      // education: 'LL.B., Rajasthan University',
       image: `${kushagraagarwal}?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop`,
       bio: `Kushagra Agarwal brings significant expertise in corporate and business laws, offering comprehensive legal solutions tailored to the dynamic requirements of modern businesses. His practice includes drafting and vetting complex agreements and contracts, conducting due diligence, in-depth legal research, and legal risk management. With a focus on providing commercially sound and strategic advice, he assists clients in navigating corporate and regulatory challenges with clarity and precision.`,
     },
     {
       name: 'Aditya Bhagwani',
       title: 'Of Counsel — Raipur (Chhattisgarh)',
-      // education: 'LL.B., Hidayatullah National Law University',
       image: `${adityabhagwani}?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop`,
       bio: `Aditya practices before the High Court of Bilaspur, Raipur District Court, and other courts across Chhattisgarh. He has extensive experience in representing clients in commercial matters, civil disputes, family law cases, and company law matters. His approach combines strong courtroom advocacy with practical legal solutions, ensuring effective representation before judicial and quasi-judicial forums.`,
     },
+   
     
     // {
     //   name: 'Adv. Grahita Agarwal',
@@ -80,7 +86,7 @@ const OurPeople: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div>
             <Users className="h-16 w-16 mx-auto mb-4" style={{ color: 'var(--primary)' }} />
-            <div className="text-4xl font-bold mb-2" style={{ color: 'var(--text)' }}>5</div>
+            <div className="text-4xl font-bold mb-2" style={{ color: 'var(--text)' }}>7</div>
             <div className="font-medium" style={{ color: 'var(--muted)' }}>Expert Attorneys</div>
           </div>
           <div>
@@ -114,10 +120,12 @@ const OurPeople: React.FC = () => {
                   <h3 className="text-xl font-bold mb-1" style={{ color: 'var(--text)' }}>{attorney.name}</h3>
                   <p className="font-semibold mb-2" style={{ color: 'var(--primary)' }}>{attorney.title}</p>
 
-                  <div className="mb-4">
-                    <h4 className="font-semibold mb-1" style={{ color: 'var(--text)' }}>Education:</h4>
-                    <p className="text-sm" style={{ color: 'var(--muted)' }}>{attorney.education}</p>
-                  </div>
+                  {attorney.education && (
+                    <div className="mb-4">
+                      <h4 className="font-semibold mb-1" style={{ color: 'var(--text)' }}>Education:</h4>
+                      <p className="text-sm" style={{ color: 'var(--muted)' }}>{attorney.education}</p>
+                    </div>
+                  )}
 
                   <p
                     className={`text-sm mb-2 transition-all duration-300 ease-in-out ${expanded ? '' : 'line-clamp-5'}`}

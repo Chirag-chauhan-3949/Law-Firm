@@ -688,7 +688,7 @@ const Home = ()=>{
             label: "Years of Experience"
         },
         {
-            number: "5",
+            number: "7",
             label: "Expert Attorneys"
         }
     ];

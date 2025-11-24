@@ -633,12 +633,13 @@ const chitrasundar = "/images/ourPeople/Chitra_Sundar.jpeg";
 const adityabhagwani = "/images/ourPeople/Aditya_Bhagwani.jpg";
 const kushagraagarwal = "/images/ourPeople/Kushagra_Agarwal.jpeg";
 const kaminijoshi = "/images/ourPeople/kamini_joshi.jpeg";
+const ranupurohit = "/images/ourPeople/Ranu_purohit.jpeg";
 const OurPeople = ()=>{
     const attorneys = [
         {
             name: 'Madhu Khatri',
             title: 'Founding Partner',
-            education: 'LL.B.; Registered Trademark Attorney',
+            education: ' BBA LLB',
             image: `${madhuKhatri}?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop`,
             bio: `With 6 years of experience as an IP and commercial lawyer, Madhu is passionate about helping clients protect, manage, and enforce their intellectual property rights across diverse sectors and markets. She is the founding partner of MK Legal Partners and a Registered Trademark Attorney, providing expert advice and solutions across all areas of intellectual property law. Madhu has practiced before the Delhi High Court and has extensive experience in handling complex and high-stakes IP matters for renowned companies across the pharmaceutical, IT, banking, food, manufacturing, and machinery sectors. She is also practicing before the Rajasthan High Court, where she handles commercial & arbitration matters, as well as other civil litigation, providing strategic guidance and effective resolution of complex disputes.`
         },
@@ -650,23 +651,27 @@ const OurPeople = ()=>{
             bio: `Chitra is a qualified lawyer with over 13 years of experience, specializing in IP prosecution and litigation, arbitration, and general civil and commercial litigation. She holds a B.Tech in Rubber and Plastics Technology from the Madras Institute of Technology and a law degree from the School of Excellence in Law, Chennai. She is also a Registered Patent Agent with specialized expertise in patent law. She began her practice at the Madras High Court and is currently practicing before the Bombay High Court and subordinate courts. Over the years, Chitra has developed extensive experience in managing complex patent filings, IP enforcement, licensing, and disputes, providing clients with practical, strategic, and technically informed solutions. Her unique combination of a strong technical background and legal expertise enables her to effectively bridge the gap between innovation and law, assisting clients in protecting, managing, and enforcing their intellectual property across diverse industries.`
         },
         {
+            name: 'Ranu Purohit',
+            title: 'Advocate on Record – Supreme Court of India',
+            education: 'B.S.L., LL.B – ILS Law College and LL.M',
+            image: `${ranupurohit}?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop`,
+            bio: `Ranu Purohit is an Advocate-on-Record at the Supreme Court of India with over a decade of experience in high-stakes litigation across diverse legal forums. She has represented a wide spectrum of clients before the Supreme Court, the Delhi High Court, and tribunals such as the National Green Tribunal, National Consumer Disputes Redressal Commission, Company Law Tribunals, District and Labour Courts, and the PMLA Appellate Tribunal.\n\nHer core expertise lies in Commercial Litigation, Constitutional Law, and Environment Law handling both contentious and advisory matters backed by strong research and analytical skills. She is empaneled as a Panel Advocate for the Supreme Court of India with the National Handloom Development Corporation (NHDC) and serves on the Labour Panel of the Delhi High Court Legal Services Committee (DHC-LSC).\n\nRanu has previously served as Legal Manager at the National Green Tribunal, working on matters of national environmental importance. She has represented the Wildlife and Environment Conservation Organization in the high-profile Baghjan, Assam oil spill case. Her analytical articles have been featured in LiveLaw.\n\nRanu holds a B.S.L., LL.B. from ILS Law College, Pune (2014), and an LL.M. from Jai Narain Vyas University, Jodhpur (2017). She is currently pursuing her Ph.D. at the same university, focusing on regulatory reforms to address India's evolving environmental challenges.`
+        },
+        {
             name: 'Adv. Kamini Joshi',
             title: 'Partner',
-            // education: 'LL.B., Rajasthan University',
             image: `${kaminijoshi}?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop`,
             bio: `Adv. Kamini Joshi practices before the Hon'ble Rajasthan High Court and handles a diverse range of cases, including Public Interest Litigations (PILs), Service Matters, Civil Disputes, and Criminal Matters. She is known for her diligent advocacy, analytical approach, and dedication to upholding justice.`
         },
         {
             name: 'Kushagra Agarwal',
             title: 'Partner — Jaipur',
-            // education: 'LL.B., Rajasthan University',
             image: `${kushagraagarwal}?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop`,
             bio: `Kushagra Agarwal brings significant expertise in corporate and business laws, offering comprehensive legal solutions tailored to the dynamic requirements of modern businesses. His practice includes drafting and vetting complex agreements and contracts, conducting due diligence, in-depth legal research, and legal risk management. With a focus on providing commercially sound and strategic advice, he assists clients in navigating corporate and regulatory challenges with clarity and precision.`
         },
         {
             name: 'Aditya Bhagwani',
             title: 'Of Counsel — Raipur (Chhattisgarh)',
-            // education: 'LL.B., Hidayatullah National Law University',
             image: `${adityabhagwani}?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop`,
             bio: `Aditya practices before the High Court of Bilaspur, Raipur District Court, and other courts across Chhattisgarh. He has extensive experience in representing clients in commercial matters, civil disputes, family law cases, and company law matters. His approach combines strong courtroom advocacy with practical legal solutions, ensuring effective representation before judicial and quasi-judicial forums.`
         }
@@ -699,13 +704,13 @@ const OurPeople = ()=>{
                                     children: "Legal Team"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/OurPeople.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 76,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/OurPeople.tsx",
-                            lineNumber: 69,
+                            lineNumber: 75,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -716,18 +721,18 @@ const OurPeople = ()=>{
                             children: "Meet our experienced attorneys who bring legal excellence, technical depth, and client-first advocacy to every matter."
                         }, void 0, false, {
                             fileName: "[project]/src/pages/OurPeople.tsx",
-                            lineNumber: 72,
+                            lineNumber: 78,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/OurPeople.tsx",
-                    lineNumber: 68,
+                    lineNumber: 74,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/pages/OurPeople.tsx",
-                lineNumber: 67,
+                lineNumber: 73,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -747,7 +752,7 @@ const OurPeople = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/OurPeople.tsx",
-                                    lineNumber: 82,
+                                    lineNumber: 88,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -755,10 +760,10 @@ const OurPeople = ()=>{
                                     style: {
                                         color: 'var(--text)'
                                     },
-                                    children: "5"
+                                    children: "7"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/OurPeople.tsx",
-                                    lineNumber: 83,
+                                    lineNumber: 89,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -769,13 +774,13 @@ const OurPeople = ()=>{
                                     children: "Expert Attorneys"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/OurPeople.tsx",
-                                    lineNumber: 84,
+                                    lineNumber: 90,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/OurPeople.tsx",
-                            lineNumber: 81,
+                            lineNumber: 87,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -787,7 +792,7 @@ const OurPeople = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/OurPeople.tsx",
-                                    lineNumber: 87,
+                                    lineNumber: 93,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -798,7 +803,7 @@ const OurPeople = ()=>{
                                     children: "15+"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/OurPeople.tsx",
-                                    lineNumber: 88,
+                                    lineNumber: 94,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -809,13 +814,13 @@ const OurPeople = ()=>{
                                     children: "Years of Experience"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/OurPeople.tsx",
-                                    lineNumber: 89,
+                                    lineNumber: 95,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/OurPeople.tsx",
-                            lineNumber: 86,
+                            lineNumber: 92,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -827,7 +832,7 @@ const OurPeople = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/OurPeople.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 98,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -838,7 +843,7 @@ const OurPeople = ()=>{
                                     children: "Excellence"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/OurPeople.tsx",
-                                    lineNumber: 93,
+                                    lineNumber: 99,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -849,24 +854,24 @@ const OurPeople = ()=>{
                                     children: "in Legal Services"
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/OurPeople.tsx",
-                                    lineNumber: 94,
+                                    lineNumber: 100,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/pages/OurPeople.tsx",
-                            lineNumber: 91,
+                            lineNumber: 97,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/pages/OurPeople.tsx",
-                    lineNumber: 80,
+                    lineNumber: 86,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/pages/OurPeople.tsx",
-                lineNumber: 79,
+                lineNumber: 85,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
@@ -889,12 +894,12 @@ const OurPeople = ()=>{
                                         className: "max-h-full max-w-full object-contain"
                                     }, void 0, false, {
                                         fileName: "[project]/src/pages/OurPeople.tsx",
-                                        lineNumber: 111,
+                                        lineNumber: 117,
                                         columnNumber: 19
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/pages/OurPeople.tsx",
-                                    lineNumber: 110,
+                                    lineNumber: 116,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -908,7 +913,7 @@ const OurPeople = ()=>{
                                             children: attorney.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/OurPeople.tsx",
-                                            lineNumber: 114,
+                                            lineNumber: 120,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -919,10 +924,10 @@ const OurPeople = ()=>{
                                             children: attorney.title
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/OurPeople.tsx",
-                                            lineNumber: 115,
+                                            lineNumber: 121,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                        attorney.education && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                             className: "mb-4",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h4", {
@@ -933,8 +938,8 @@ const OurPeople = ()=>{
                                                     children: "Education:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/OurPeople.tsx",
-                                                    lineNumber: 118,
-                                                    columnNumber: 21
+                                                    lineNumber: 125,
+                                                    columnNumber: 23
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                                     className: "text-sm",
@@ -944,14 +949,14 @@ const OurPeople = ()=>{
                                                     children: attorney.education
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/pages/OurPeople.tsx",
-                                                    lineNumber: 119,
-                                                    columnNumber: 21
+                                                    lineNumber: 126,
+                                                    columnNumber: 23
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/pages/OurPeople.tsx",
-                                            lineNumber: 117,
-                                            columnNumber: 19
+                                            lineNumber: 124,
+                                            columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                             className: `text-sm mb-2 transition-all duration-300 ease-in-out ${expanded ? '' : 'line-clamp-5'}`,
@@ -962,7 +967,7 @@ const OurPeople = ()=>{
                                             children: attorney.bio
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/OurPeople.tsx",
-                                            lineNumber: 122,
+                                            lineNumber: 130,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -974,36 +979,36 @@ const OurPeople = ()=>{
                                             children: expanded ? 'Read Less' : 'Read More'
                                         }, void 0, false, {
                                             fileName: "[project]/src/pages/OurPeople.tsx",
-                                            lineNumber: 129,
+                                            lineNumber: 137,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/pages/OurPeople.tsx",
-                                    lineNumber: 113,
+                                    lineNumber: 119,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, index, true, {
                             fileName: "[project]/src/pages/OurPeople.tsx",
-                            lineNumber: 105,
+                            lineNumber: 111,
                             columnNumber: 15
                         }, ("TURBOPACK compile-time value", void 0));
                     })
                 }, void 0, false, {
                     fileName: "[project]/src/pages/OurPeople.tsx",
-                    lineNumber: 101,
+                    lineNumber: 107,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/pages/OurPeople.tsx",
-                lineNumber: 100,
+                lineNumber: 106,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/pages/OurPeople.tsx",
-        lineNumber: 58,
+        lineNumber: 64,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
